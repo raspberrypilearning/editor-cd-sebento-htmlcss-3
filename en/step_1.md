@@ -1,45 +1,41 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## Introduction
 
-A brief description - one or two sentences. 
+These Sushi Cards will show you how to make a website look polished and professional using cool effects and layouts. 
 
---- print-only ---
+### What you will make
 
-![ALT TEXT](images/IMAGE.png)
+Move your mouse cursor around in the window below to try out some of the effects you'll learn how to use on your website:
 
---- /print-only ---
-
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
+<div class="trinket">
+  <iframe src="https://trinket.io/embed/html/8d85e4f41d?outputOnly=true&start=result" width="600" height="505" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+  <!-- <img src="images/magazine-final.png"> -->
 </div>
 
---- /no-print ---
+--- collapse ---
+---
+title: What you will learn
+---
 
-### You will need:
-- a
-- b
-- c
+In these Sushi Cards, you will find out how to:
+* Create any website layout you want
+* Make your layout adjust itself automatically to different screen sizes
+* Make a collage of overlapping pictures and text
+* Apply some neat hover and click effects that you might have seen on other websites
+
+--- /collapse ---
+
+--- collapse ---
+---
+title: What you will need
+---
+
+### Hardware
+
++ A computer capable of accessing [trinket.io](https://trinket.io){:target="_blank"}
+
+### Software
+
+This project can be completed in a web browser using [trinket.io](https://trinket.io){:target="_blank"} or offline using a plain text editor.
+
+--- /collapse ---
