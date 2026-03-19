@@ -1,16 +1,49 @@
-<h2 class="c-project-heading--task">Try flex on the menu</h2>
+<h2 class="c-project-heading--task">Arrange the cards in a row</h2>
 
 --- task ---
 
-Use flex on the menu so the links line up in a row and you can control how they spread across the page.
+Put your cards inside a flex container so they can sit side by side and wrap neatly when there is less space.
 
 --- /task ---
 
-Flex is useful for more than cards. A navigation bar is another good place to practise arranging items horizontally.
+A flex container can lay cards out side by side and move them onto a new line when needed.
 
 --- task ---
 
-In **styles.css**, remove `display: inline;` from `nav ul li`, then add the highlighted CSS to `nav ul`.
+In **index.html**, wrap the card links in a new `div` with the class `cardContainer`.
+
+--- /task ---
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 30
+line_highlights: 32,39
+---
+    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+
+    <div class="cardContainer">
+      <a href="birds.html#scBarnowl" class="cardLink">
+        <article class="card">
+          <img src="barn-owl-landing.jpg" class="tinyPicture">
+          <h3>Barn Owl</h3>
+          <p>Habitat: farmland, grassland</p>
+        </article>
+      </a>
+    </div>
+
+    </main>
+--- /code ---
+
+</div>
+
+--- task ---
+
+In **styles.css**, add a flex rule for `.cardContainer`.
 
 --- /task ---
 
@@ -21,35 +54,55 @@ In **styles.css**, remove `display: inline;` from `nav ul li`, then add the high
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 12
-line_highlights: 19-20
+line_number_start: 185
+line_highlights: 190-194
 ---
-nav ul {
-  background-color: tomato;
-  border-style: solid;
-  border-color: MediumVioletRed;
-  border-width: 2px;
-  padding: 10px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: flex-start;
+.cardLink {
+  color: inherit;
+  text-decoration: none;
 }
-
-nav ul li {
-  list-style-type: none;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: PapayaWhip;
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
 }
 --- /code ---
 
 </div>
 
-`justify-content` controls how items are distributed across the flex container. Try `flex-end` to push the links to the right, or `space-around` to spread them out evenly.
+--- task ---
+
+Still in **styles.css**, add a hover effect so each card lifts slightly when you move the pointer over it.
+
+--- /task ---
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: css
+filename: styles.css
+line_numbers: true
+line_number_start: 176
+line_highlights: 178,180-184
+---
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 0.2s ease-out;
+}
+.card:hover {
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+.cardLink {
+--- /code ---
+
+</div>
 
 --- task ---
 
-Click **Run** and check that the menu now sits in a row. Experiment with different `justify-content` values to see how the layout changes.
+Click **Run** and check that the cards sit in a row when there is space, wrap onto a new line when the window gets narrower, and lift slightly when you hover over them.
 
 --- /task ---
 

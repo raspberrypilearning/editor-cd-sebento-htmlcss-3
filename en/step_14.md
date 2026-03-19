@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Challenge</h2>
+<h2 class="c-project-heading--task">Challenge: Add your own effect</h2>
 
 --- task ---
 
