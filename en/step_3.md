@@ -6,7 +6,19 @@ Style your preview card so it looks more like a polished feature on your homepag
 
 --- /task ---
 
-Add the CSS below to create a small card with a rounded picture, ready for the rest of your featured birds.
+
+--- task ---
+
+Click on the project file tab and select **styles.css**
+
+--- /task ---
+
+
+--- task ---
+
+Add the highlighted CSS below to create a small card with a rounded picture.
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -15,11 +27,11 @@ Add the CSS below to create a small card with a rounded picture, ready for the r
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 159
-line_highlights: 163-179
+line_number_start: 105
+line_highlights: 109-125
 ---
-.lightbox:target {
-    visibility: visible;
+.niceLinks:hover {
+  color: #00FF7F;
 }
 
 .tinyPicture {
@@ -35,22 +47,24 @@ line_highlights: 163-179
     padding: 10px;
     margin-top: 10px;
     font-family: "Trebuchet MS", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
-.cardLink {
-  color: inherit;
-  text-decoration: none;
+.card:hover {
+    border-color: #1E90FF;
 }
+
+/**********************************
+This section is for styling tables
 --- /code ---
 
 </div>
-
-
-<h2 class="c-project-heading--task">Test</h2>
-
 --- task ---
 
 Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.
 
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step3.png)
+
+</div>

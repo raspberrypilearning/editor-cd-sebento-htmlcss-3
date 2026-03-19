@@ -25,11 +25,13 @@ steps:
   - title: Step 7
   - title: Step 8
   - title: Step 9
-    completion:
-      - internal
   - title: Step 10
   - title: Step 11
     completion:
-      - external
+      - internal
   - title: Step 12
+  - title: Step 13
+    completion:
+      - external
+  - title: Step 14
     challenge: true

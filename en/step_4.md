@@ -1,15 +1,22 @@
 <h2 class="c-project-heading--task">Make your cards clickable</h2>
 
 --- task ---
+
 Turn your homepage cards into clickable links so people can use them to jump straight to the matching bird sections.
 
 --- /task ---
 
-This is a neat way to turn your homepage into a simple shortcut to another part of the site. The `href` uses a page anchor such as `birds.html#scBarnowl`, so clicking the card opens the correct section on the birds page.
+--- task ---
 
-Start by wrapping your Barn Owl card in a link. Once that works, you can repeat the same pattern for more cards later.
+Go to the **index.html** file. 
 
-**Code snippet 1: Wrap the Barn Owl card in a link.**
+--- /task ---
+
+--- task ---
+
+Add the code below to wrap your Barn Owl card in a link.
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -18,14 +25,11 @@ Start by wrapping your Barn Owl card in a link. Once that works, you can repeat 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 31
-line_highlights: 36-44
----
-    <figure>
-      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
-      <figcaption>Owly the barn owl</figcaption>
-    </figure>
-    
+line_number_start: 30
+line_highlights: 32, 38
+--- 
+   <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />   
+   
     <a href="birds.html#scBarnowl" class="cardLink">
       <article class="card">
         <img src="barn-owl-landing.jpg" class="tinyPicture">
@@ -33,14 +37,18 @@ line_highlights: 36-44
         <p>Habitat: farmland, grassland</p>
       </article>
     </a>
-    
-  </main>
-  <footer>
+
+    </main>
 --- /code ---
 
 </div>
 
-**Code snippet 2: Reset the default link styling so the card still looks like a card.**
+--- task ---
+
+In **styles.css** add `cardlink` styles.
+
+--- /task ---
+
 
 <div class="c-project-code">
 
@@ -49,18 +57,9 @@ line_highlights: 36-44
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 167
-line_highlights: 185-188
+line_number_start: 176
+line_highlights: 179-182
 ---
-.card {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #F0FFFF;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-top: 10px;
-    font-family: "Trebuchet MS", sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
@@ -68,22 +67,19 @@ line_highlights: 185-188
   color: inherit;
   text-decoration: none;
 }
-
-.cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
-}
 --- /code ---
 
 </div>
 
-
-<h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
 
 Click **Run** and check that the Barn Owl card is clickable and opens the Barn Owl section on `birds.html`.
 
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step4.png)
+
+</div>
