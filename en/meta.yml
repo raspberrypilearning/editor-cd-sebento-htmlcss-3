@@ -14,21 +14,22 @@ software: html-css-javascript
 version: 3.1.0
 last_tested: '2018-04-17'
 steps:
-  - title: You will make
-  - title: Add a featured image caption
-  - title: Add a preview card
+  - title: Step 1
+  - title: Step 2
+  - title: Step 3
     completion:
       - engaged
-  - title: Style the preview card
-  - title: Link and arrange your cards
-  - title: Make the menu responsive
-  - title: Add side notes to the birds page
-  - title: Build a page grid
+  - title: Step 4
+  - title: Step 5
+  - title: Step 6
+  - title: Step 7
+  - title: Step 8
+  - title: Step 9
     completion:
       - internal
-  - title: Create a photo collage
-  - title: Add hover and lightbox effects
+  - title: Step 10
+  - title: Step 11
     completion:
       - external
-  - title: Challenge
+  - title: Step 12
     challenge: true

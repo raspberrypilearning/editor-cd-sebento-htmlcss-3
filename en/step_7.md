@@ -1,11 +1,12 @@
 <h2 class="c-project-heading--task">Add side notes to the birds page</h2>
 
 --- task ---
-Line numbers are best-effort in this step, and you can add extra information in `aside` elements so the main article keeps its focus.
 
-**Code snippet 1: Add two side notes after the main article in `birds.html`.**
+Add side notes to your birds page so you can include extra facts and useful links without crowding the main article.
 
 --- /task ---
+
+This is a good job for `aside` elements, because the information is useful but does not belong inside the main list of birds.
 
 <div class="c-project-code">
 
@@ -17,7 +18,7 @@ line_numbers: true
 line_number_start: 118
 line_highlights: 118-138
 ---
-      <aside class="sideNoteStyle">
+      <aside>
         <h3>Threats to birds</h3>
         <p>
           Some of the main reasons you might observe declining numbers are:
@@ -29,7 +30,7 @@ line_highlights: 118-138
         </ol>
       </aside>
 
-      <aside class="sideNoteStyle">
+      <aside>
         <h3>Useful links</h3>
         <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
           <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
@@ -39,46 +40,10 @@ line_highlights: 118-138
 
 </div>
 
-**Code snippet 2: Style the side notes and highlighted words.**
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 197
-line_highlights: 197-209
----
-.sideNoteStyle {
-  border: dotted 1px purple;
-  background-color: #cddffe;
-  padding: 0.5em;
-  margin: 0.5em;
-}
-.warnOrange {
-    background-color: #ffa500;
-}
-.warnRed {
-    color: #FF4500;
-    font-size: larger;
-}
---- /code ---
-
-</div>
-
-
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
 
-Click **Run**. The extra notes appear outside the main bird list in their own styled boxes.
+Click **Run** and check that the extra notes appear outside the main bird list on the birds page.
 
 --- /task ---
-
-<div class="c-project-output">
-
-![screenshot of output](step*.png)
-
-</div>

@@ -1,12 +1,12 @@
-<h2 class="c-project-heading--task">Build a page grid</h2>
+<h2 class="c-project-heading--task">Style the side notes</h2>
 
 --- task ---
 
-Line numbers are best-effort in this step, and you can add grid classes so the article and side notes snap into a cleaner page layout.
-
-**Code snippet 1: Add grid classes to the main content and side notes.**
+Style your side notes so they stand out from the main article and make the extra information easier to spot.
 
 --- /task ---
+
+Add a class to each `aside`, then use CSS to give the notes their own look.
 
 <div class="c-project-code">
 
@@ -15,28 +15,19 @@ Line numbers are best-effort in this step, and you can add grid classes so the a
 language: html
 filename: birds.html
 line_numbers: true
-line_number_start: 20
-line_highlights: 20,49,118,131
+line_number_start: 118
+line_highlights: 118,131,133
 ---
-  <main class="myPageLayoutGrid">
-    
-    <article class="myGridArticle">
-      <h1>Birds of conservation concern in Ireland</h1>
-    </article>
-    
-    <aside class="sideNoteStyle myGridAside1">
-      <h3>Threats to birds</h3>
-    </aside>
-    
-    <aside class="sideNoteStyle myGridAside2">
-      <h3>Useful links</h3>
-    </aside>
-  </main>
+      <aside class="sideNoteStyle">
+        <h3>Threats to birds</h3>
+      </aside>
+
+      <aside class="sideNoteStyle">
+        <h3>Useful links</h3>
+        <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
 --- /code ---
 
 </div>
-
-**Code snippet 2: Define the grid layout in `styles.css`.**
 
 <div class="c-project-code">
 
@@ -45,44 +36,30 @@ line_highlights: 20,49,118,131
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 212
-line_highlights: 212-231
+line_number_start: 197
+line_highlights: 197-209
 ---
-.myPageLayoutGrid {
-    display: grid;
-    grid-column-gap: 0.5em;
-    grid-row-gap: 1em;
-    grid-template-rows: auto;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-        "egArticle egAside1"
-        "egArticle egAside2"
-        "egArticle .";
+.sideNoteStyle {
+  border: dotted 1px purple;
+  background-color: #cddffe;
+  padding: 0.5em;
+  margin: 0.5em;
 }
-.myGridArticle {
-    grid-area: egArticle;
+.warnOrange {
+    background-color: #ffa500;
 }
-.myGridAside1 {
-    grid-area: egAside1;
-}
-.myGridAside2 {
-    grid-area: egAside2;
+.warnRed {
+    color: #FF4500;
+    font-size: larger;
 }
 --- /code ---
 
 </div>
 
-
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
 
-Click **Run** and see the main article takes the wider column while the two side notes sit in a narrower column on the right.
+Click **Run** and check that the side notes appear in styled boxes and that the words `amber` and `red` stand out.
 
 --- /task ---
-
-<div class="c-project-output">
-
-![screenshot of output](step*.png)
-
-</div>

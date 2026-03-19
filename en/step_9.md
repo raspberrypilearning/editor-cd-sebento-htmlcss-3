@@ -1,37 +1,44 @@
-<h2 class="c-project-heading--task">Create a photo collage</h2>
+<h2 class="c-project-heading--task">Build a page grid</h2>
 
 --- task ---
 
-Line numbers are best-effort in this step, and you can position several homepage images inside one container to build a layered collage.
+Use a grid layout to organise the birds page so the main article and side notes sit in a cleaner, more interesting arrangement.
 
-**Code snippet 1: Add the collage container and images to `index.html`.**
+**Code snippet 1: Add grid classes to the main content and side notes.**
 
 --- /task ---
 
+CSS grid is a powerful way to control page layout. Here you will use it to give the article more space and move the side notes into their own column.
 
 <div class="c-project-code">
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: birds.html
 line_numbers: true
-line_number_start: 81
-line_highlights: 81-88
+line_number_start: 20
+line_highlights: 20,49,118,131
 ---
-    <div id="photoBox" class="relPos">
-        <img id="imgYoungKestrel" class="collagePhoto absPos" src="young-kestrel.jpg" alt="A young kestrel" />
-        <img id="imgYoungKestrelTree" class="collagePhoto absPos" src="baby-kestrel.jpg" alt="A young kestrel on a branch" />
-        <img id="imgKestrelSky" class="collagePhoto absPos" src="kestrel-flying.jpg" alt="A kestrel flying" />
-        <img id="imgHello" class="collagePhoto absPos" src="bird-kestrel.jpg" alt="Closeup of a kestrel's face" />
-        <img id="imgKestrel" class="collagePhoto absPos" src="kestrel-mirror.jpg" alt="A kestrel perched by a mirror" />
-        <p id="photoText" class="absPos"><em>The Kestrel</em></p>
-    </div>
+  <main class="myPageLayoutGrid">
+    
+    <article class="myGridArticle">
+      <h1>Birds of conservation concern in Ireland</h1>
+    </article>
+    
+    <aside class="sideNoteStyle myGridAside1">
+      <h3>Threats to birds</h3>
+    </aside>
+    
+    <aside class="sideNoteStyle myGridAside2">
+      <h3>Useful links</h3>
+    </aside>
+  </main>
 --- /code ---
 
 </div>
 
-**Code snippet 2: Position each collage item with CSS.**
+**Code snippet 2: Define the grid layout in `styles.css`.**
 
 <div class="c-project-code">
 
@@ -40,76 +47,38 @@ line_highlights: 81-88
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 235
-line_highlights: 235-288
+line_number_start: 212
+line_highlights: 212-231
 ---
-#imgYoungKestrel {
-    width: 230px;
-    top: 100px;
-    left: 20px;
-    z-index: 6;
+.myPageLayoutGrid {
+    display: grid;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 1em;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "egArticle egAside1"
+        "egArticle egAside2"
+        "egArticle .";
 }
-#imgYoungKestrelTree {
-    width: 250px;
-    top: 210px;
-    left: 160px;
-    z-index: 10;
+.myGridArticle {
+    grid-area: egArticle;
 }
-#imgKestrelSky {
-    width: 250px;
-    top: 65px;
-    left: 180px;
-    z-index: 8;
+.myGridAside1 {
+    grid-area: egAside1;
 }
-#imgHello {
-    width: 150px;
-    top: 10px;
-    left: 340px;
-    z-index: 9;
-}
-#imgKestrel {
-    width: 200px;
-    top: 120px;
-    left: 360px;
-    z-index: 7;
-}
-#photoText {
-    font-family: "Times New Roman", serif;
-    color: #cc6699;
-    font-size: 22px;
-    left: 185px;
-    top: 190px;
-    z-index: 20;
-}
-
-.collagePhoto {
-    border: 1px solid white;
-}
-.relPos {
-    position: relative;
-}
-.absPos {
-    position: absolute;
-}
-
-#photoBox {
-    width: 800px;
-    height: 400px;
+.myGridAside2 {
+    grid-area: egAside2;
 }
 --- /code ---
 
 </div>
 
+
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
 
-Click **Run** to see the kestrel images overlap inside one collage with the text sitting on top.
+Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.
 
 --- /task ---
-
-<div class="c-project-output">
-
-![screenshot of output](step*.png)
-
-</div>

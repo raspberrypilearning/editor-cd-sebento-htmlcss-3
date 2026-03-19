@@ -2,9 +2,11 @@
 
 --- task ---
 
-Line numbers are best-effort in this step, and you can switch the navigation to a mobile-first flex layout that rearranges itself on wider screens.
+Make your navigation menu responsive so it works neatly on small screens first and then spreads out on larger screens.
 
 --- /task ---
+
+You will start with the menu stacked for smaller screens, then use media queries to adjust the layout when there is more space.
 
 <div class="c-project-code">
 
@@ -57,7 +59,7 @@ nav ul li {
 
 --- task ---
 
-Click **Run** to test. Make the browser narrow and wide, and confirm the menu stacks on smaller screens before spreading into a row on larger screens.
+Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
 
 --- /task ---
 

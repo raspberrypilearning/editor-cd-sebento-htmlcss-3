@@ -1,39 +1,48 @@
-<h2 class="c-project-heading--task">Add a preview card</h2>
+<h2 class="c-project-heading--task">Style the preview card</h2>
 
 --- task ---
 
-Add your first homepage preview card so visitors can jump from the homepage to one of the bird sections.
+Style your preview card so it looks more like a polished feature on your homepage, with a neat thumbnail and a clear card shape.
 
 --- /task ---
+
+Add the CSS below to create a small card with a rounded picture, ready for the rest of your featured birds.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: styles.css
 line_numbers: true
-line_number_start: 36
-line_highlights: 36-42
+line_number_start: 163
+line_highlights: 163-179
 ---
-    <article class="card">
-      <img src="barn-owl-landing.jpg" class="tinyPicture">
-      <h3>Barn Owl</h3>
-      <p>Habitat: farmland, grassland</p>
-    </article>
+.tinyPicture {
+    height: 60px;
+    border-radius: 10px;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
 --- /code ---
 
 </div>
 
 
+<h2 class="c-project-heading--task">Test</h2>
+
 --- task ---
 
-Click **Run** to see a new Barn Owl card appears under the featured image.
+Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.
 
 --- /task ---
-
-<div class="c-project-output">
-
-![screenshot of output](step*.png)
-
-</div>
