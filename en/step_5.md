@@ -14,13 +14,19 @@ Group the owl image and its caption together so the homepage feels more finished
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 31
+line_number_start: 27
 line_highlights: 31-34
 ---
+    <p>
+      Explore the links above to learn more.
+    </p>
+    
     <figure>
       <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
       <figcaption>Owly the barn owl</figcaption>
     </figure>
+    
+    <a href="birds.html#scBarnowl" class="cardLink">
 --- /code ---
 
 </div>

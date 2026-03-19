@@ -15,9 +15,13 @@ Add the CSS below to create a small card with a rounded picture, ready for the r
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 163
+line_number_start: 159
 line_highlights: 163-179
 ---
+.lightbox:target {
+    visibility: visible;
+}
+
 .tinyPicture {
     height: 60px;
     border-radius: 10px;
@@ -33,6 +37,10 @@ line_highlights: 163-179
     font-family: "Trebuchet MS", sans-serif;
     margin-left: auto;
     margin-right: auto;
+}
+.cardLink {
+  color: inherit;
+  text-decoration: none;
 }
 --- /code ---
 

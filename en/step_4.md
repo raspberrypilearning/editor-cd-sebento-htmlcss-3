@@ -18,9 +18,14 @@ Start by wrapping your Barn Owl card in a link. Once that works, you can repeat 
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 36
+line_number_start: 31
 line_highlights: 36-44
 ---
+    <figure>
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+      <figcaption>Owly the barn owl</figcaption>
+    </figure>
+    
     <a href="birds.html#scBarnowl" class="cardLink">
       <article class="card">
         <img src="barn-owl-landing.jpg" class="tinyPicture">
@@ -28,6 +33,9 @@ line_highlights: 36-44
         <p>Habitat: farmland, grassland</p>
       </article>
     </a>
+    
+  </main>
+  <footer>
 --- /code ---
 
 </div>
@@ -44,9 +52,28 @@ line_numbers: true
 line_number_start: 167
 line_highlights: 185-188
 ---
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: "Trebuchet MS", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
 .cardLink {
   color: inherit;
   text-decoration: none;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
 }
 --- /code ---
 

@@ -15,14 +15,23 @@ Preview cards are a handy way to show off different parts of your site. Start by
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 36
-line_highlights: 36-42
+line_number_start: 27
+line_highlights: 32-36 
 ---
+    <p>
+      Explore the links above to learn more.
+    </p>
+    
+    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+
     <article class="card">
       <img src="barn-owl-landing.jpg" class="tinyPicture">
       <h3>Barn Owl</h3>
       <p>Habitat: farmland, grassland</p>
     </article>
+    
+  </main>
+  <footer>
 --- /code ---
 
 </div>

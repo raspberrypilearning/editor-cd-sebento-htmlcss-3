@@ -36,6 +36,10 @@ nav ul li {
     margin-right: 0.5em;
     margin-left: 0.5em;
 }
+nav ul li a {
+  text-decoration: none;
+  color: indigo;
+}
 
 @media all and (min-width: 400px) {
     nav ul {
@@ -49,6 +53,9 @@ nav ul li {
         flex-direction: row;
         justify-content: flex-end;
     }
+}
+.darkerBackground {
+  background-color: #99bbff;
 }
 --- /code ---
 

@@ -15,9 +15,11 @@ This is a good job for `aside` elements, because the information is useful but d
 language: html
 filename: birds.html
 line_numbers: true
-line_number_start: 118
+line_number_start: 114
 line_highlights: 118-138
 ---
+      </article>
+      
       <aside>
         <h3>Threats to birds</h3>
         <p>
@@ -36,6 +38,9 @@ line_highlights: 118-138
           <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
         <p>Check out the Wikipedia <a href="https://en.wikipedia.org/wiki/Bird_conservation">article</a>.</p>
       </aside>
+      
+    </main>
+    <footer>
 --- /code ---
 
 </div>
