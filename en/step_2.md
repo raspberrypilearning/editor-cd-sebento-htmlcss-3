@@ -1,10 +1,12 @@
 <h2 class="c-project-heading--task">Add a featured image caption</h2>
 
 --- task ---
+
 Wrap the owl image in a `figure` so you can add a proper caption underneath it.
 
-<div class="c-project-code">
+--- /task ---
 
+<div class="c-project-code">
 --- code ---
 ---
 language: html
@@ -20,10 +22,17 @@ line_highlights: 31-34
 --- /code ---
 
 </div>
---- /task ---
 
-<h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Open the homepage and confirm the owl image now has a caption directly below it.
+
+Click **Run** and confirm the owl image now has a caption directly below it.
+
 --- /task ---
+
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

@@ -1,9 +1,12 @@
 <h2 class="c-project-heading--task">Build a page grid</h2>
 
 --- task ---
+
 Line numbers are best-effort in this step, and you can add grid classes so the article and side notes snap into a cleaner page layout.
 
 **Code snippet 1: Add grid classes to the main content and side notes.**
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -68,10 +71,18 @@ line_highlights: 212-231
 --- /code ---
 
 </div>
---- /task ---
+
 
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Reload `birds.html` and confirm the main article takes the wider column while the two side notes sit in a narrower column on the right.
+
+Click **Run** and see the main article takes the wider column while the two side notes sit in a narrower column on the right.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

@@ -1,7 +1,9 @@
 <h2 class="c-project-heading--task">You will make</h2>
 
 --- task ---
+
 Build a polished bird conservation website with linked cards, responsive layouts, and interactive effects.
+
 --- /task ---
 
 <div class="c-project-output">
@@ -9,8 +11,9 @@ Build a polished bird conservation website with linked cards, responsive layouts
   </iframe>
 </div>
 
-<h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Explore the finished example and confirm you can spot linked cards, a photo collage, and pop-up image effects.
+
+Click **Run** and explore the finished example and confirm you can spot linked cards, a photo collage, and pop-up image effects.
+
 --- /task ---

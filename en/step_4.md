@@ -1,7 +1,10 @@
 <h2 class="c-project-heading--task">Style the preview card</h2>
 
 --- task ---
+
 Line numbers are best-effort in this step, and you can add CSS classes for the card thumbnail and card panel to make the new preview look polished.
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -32,10 +35,17 @@ line_highlights: 163-179
 --- /code ---
 
 </div>
---- /task ---
 
-<h2 class="c-project-heading--task">Test</h2>
+
 
 --- task ---
-Refresh the page and confirm the card now has a border, rounded corners, and a small rounded thumbnail image.
+
+Click **Run**. The card now has a border, rounded corners, and a small rounded thumbnail image.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

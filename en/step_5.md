@@ -5,6 +5,8 @@ Line numbers are best-effort in this step, and you can turn the cards into links
 
 **Code snippet 1: Replace the single card with a linked card container on the homepage.**
 
+--- /task ---
+
 <div class="c-project-code">
 
 --- code ---
@@ -98,10 +100,18 @@ line_highlights: 176-195
 --- /code ---
 
 </div>
---- /task ---
+
 
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Open the homepage and confirm the cards sit in a row or wrap neatly, and that clicking a card jumps to the matching section on `birds.html`.
+
+Click **Run** ans see the cards sit in a row or wrap neatly, and that clicking a card jumps to the matching section on `birds.html`.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

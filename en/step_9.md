@@ -1,9 +1,13 @@
 <h2 class="c-project-heading--task">Create a photo collage</h2>
 
 --- task ---
+
 Line numbers are best-effort in this step, and you can position several homepage images inside one container to build a layered collage.
 
 **Code snippet 1: Add the collage container and images to `index.html`.**
+
+--- /task ---
+
 
 <div class="c-project-code">
 
@@ -95,10 +99,17 @@ line_highlights: 235-288
 --- /code ---
 
 </div>
---- /task ---
 
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Refresh the homepage and confirm the kestrel images overlap inside one collage with the text sitting on top.
+
+Click **Run** to see the kestrel images overlap inside one collage with the text sitting on top.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

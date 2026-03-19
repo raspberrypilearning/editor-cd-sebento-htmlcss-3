@@ -1,9 +1,12 @@
 <h2 class="c-project-heading--task">Add hover and lightbox effects</h2>
 
 --- task ---
+
 Line numbers are best-effort in this step, and you can make your cards lift on hover while bird images open in a full-page lightbox when clicked.
 
 **Code snippet 1: Add lightbox links and wrap bird images so they open the matching popup.**
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -99,10 +102,18 @@ line_highlights: 146-160,178,180-184
 --- /code ---
 
 </div>
---- /task ---
+
 
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Hover over a homepage card to check it lifts slightly, then open `birds.html` and click a bird image to confirm the lightbox appears and closes when you click away.
+
+Click **Run** to test. Hover over a homepage card to check it lifts slightly, then open `birds.html` and click a bird image to confirm the lightbox appears and closes when you click away.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

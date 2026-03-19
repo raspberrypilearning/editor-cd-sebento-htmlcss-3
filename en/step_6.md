@@ -1,7 +1,10 @@
 <h2 class="c-project-heading--task">Make the menu responsive</h2>
 
 --- task ---
+
 Line numbers are best-effort in this step, and you can switch the navigation to a mobile-first flex layout that rearranges itself on wider screens.
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -48,10 +51,18 @@ nav ul li {
 --- /code ---
 
 </div>
---- /task ---
+
 
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Make the browser narrow and wide, and confirm the menu stacks on smaller screens before spreading into a row on larger screens.
+
+Click **Run** to test. Make the browser narrow and wide, and confirm the menu stacks on smaller screens before spreading into a row on larger screens.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

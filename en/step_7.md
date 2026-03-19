@@ -5,6 +5,8 @@ Line numbers are best-effort in this step, and you can add extra information in 
 
 **Code snippet 1: Add two side notes after the main article in `birds.html`.**
 
+--- /task ---
+
 <div class="c-project-code">
 
 --- code ---
@@ -65,10 +67,18 @@ line_highlights: 197-209
 --- /code ---
 
 </div>
---- /task ---
+
 
 <h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Open `birds.html` and confirm the extra notes appear outside the main bird list in their own styled boxes.
+
+Click **Run**. The extra notes appear outside the main bird list in their own styled boxes.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

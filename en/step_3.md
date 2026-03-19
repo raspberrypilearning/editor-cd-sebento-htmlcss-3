@@ -1,7 +1,10 @@
 <h2 class="c-project-heading--task">Add a preview card</h2>
 
 --- task ---
+
 Add your first homepage preview card so visitors can jump from the homepage to one of the bird sections.
+
+--- /task ---
 
 <div class="c-project-code">
 
@@ -21,10 +24,16 @@ line_highlights: 36-42
 --- /code ---
 
 </div>
---- /task ---
 
-<h2 class="c-project-heading--task">Test</h2>
 
 --- task ---
-Reload the homepage and confirm a new Barn Owl card appears under the featured image.
+
+Click **Run** to see a new Barn Owl card appears under the featured image.
+
 --- /task ---
+
+<div class="c-project-output">
+
+![screenshot of output](step*.png)
+
+</div>

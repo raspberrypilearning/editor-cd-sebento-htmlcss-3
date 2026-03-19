@@ -1,7 +1,11 @@
 <h2 class="c-project-heading--task">Challenge</h2>
 
 --- task ---
+
 Make the website feel more personal by inventing one more effect, such as another lightbox, another collage photo, or an animated heading.
+
+<h2 class="c-project-heading--task">Test</h2>
+
 
 <div class="c-project-code">
 
@@ -39,10 +43,6 @@ h1 {
 --- /code ---
 
 </div>
---- /task ---
 
-<h2 class="c-project-heading--task">Test</h2>
 
---- task ---
-Try your new effect and confirm it changes the page in a way you can clearly see when the site loads or when you interact with it.
---- /task ---
+
