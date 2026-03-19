@@ -1,154 +1,74 @@
-## Design cool page layouts
+<h2 class="c-project-heading--task">Add side notes to the birds page</h2>
 
-+ For this card you should work with a page that contains a `main` element with three elements inside: one `article` and two `aside`s. Go ahead and create these first if you need to. If you want to work with my website, add the `aside` code from the previous Sushi Card to the Protected Birds page. 
+--- task ---
+Line numbers are best-effort in this step, and you can add extra information in `aside` elements so the main article keeps its focus.
 
-Here are three different page layouts you'll be applying: 
+**Code snippet 1: Add two side notes after the main article in `birds.html`.**
 
-![](images/cssGridLayouts.png)
+<div class="c-project-code">
 
-+ Add new CSS classes to `main` and each of three elements inside it.
-
-```html
-    <main class="myPageLayoutGrid">
-        <article class="myGridArticle">
-            <!--other stuff here-->
-        </article>
-        <aside class="myGridAside1">
-            <!--other stuff here-->
-        </aside>
-        <aside class="myGridAside2">
-            <!--other stuff here-->
-        </aside>
-    </main>
-```
-
-The container you'll change the layout of is `main`, but you could do this with any kind of container, like a `div` or `article`, or even the whole page `body`. The technique you're going to use is called **CSS grid**.
-
-In this example, the `header` and `footer` will be left out of the design, but it's quite common to include them in the grid too.
-
-+ Set the `display` property to `grid` on the overall container:
-
-```css
-    .myPageLayoutGrid {
-        display: grid;
-        grid-column-gap: 0.5em;
-        grid-row-gap: 1em;
-    }
-```
-
-What do you think the `grid-column-gap` and `grid-row-gap` properties do?
-
-+ Next, you name a `grid-area` for each element: 
-
-```css
-    .myGridArticle {
-        grid-area: egArticle;
-    }
-    .myGridAside1 {
-        grid-area: egAside1;
-    }
-    .myGridAside2 {
-        grid-area: egAside2;
-    }
-```
-
-Then you design your layout! Let's put the two `aside` elements side by side at the bottom of the page. For this you need two **columns** of equal width. You can keep the **row** height automatic. 
-
-+ Put the following code inside the `.myPageLayoutGrid` CSS rules:
-
-```css
-    grid-template-rows: auto;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "egArticle egArticle"
-        "egAside1 egAside2";
-```
-    
-`fr` stands for **fraction**. Notice how you make the `article` take up all the space over the two columns.
-
-
---- collapse ---
+--- code ---
 ---
-title: Help! I got errors and warnings!
+language: html
+filename: birds.html
+line_numbers: true
+line_number_start: 118
+line_highlights: 118-138
 ---
+      <aside class="sideNoteStyle">
+        <h3>Threats to birds</h3>
+        <p>
+          Some of the main reasons you might observe declining numbers are:
+        </p>
+        <ol>
+          <li>Habitat destruction</li>
+          <li>Pollution</li>
+          <li>Climate change</li>
+        </ol>
+      </aside>
 
-If you are using Trinket, you may notice some errors and warnings appear, even if you typed the code exactly as above. This is because Trinket does not yet recognise the CSS grid properties. However, the code will still work.
+      <aside class="sideNoteStyle">
+        <h3>Useful links</h3>
+        <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
+          <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
+        <p>Check out the Wikipedia <a href="https://en.wikipedia.org/wiki/Bird_conservation">article</a>.</p>
+      </aside>
+--- /code ---
 
-If the CSS grid code gives you 'unknown property' warnings or an error like 'unexpected token 1fr', you can simply ignore these.
+</div>
 
---- /collapse ---
+**Code snippet 2: Style the side notes and highlighted words.**
 
-![Asides are side by side at the bottom](images/cssGridAsidesAtBottom.png)
+<div class="c-project-code">
 
-Let's put the `aside` elements over on the right and make them half the width of the `article`.
+--- code ---
+---
+language: css
+filename: styles.css
+line_numbers: true
+line_number_start: 197
+line_highlights: 197-209
+---
+.sideNoteStyle {
+  border: dotted 1px purple;
+  background-color: #cddffe;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.warnOrange {
+    background-color: #ffa500;
+}
+.warnRed {
+    color: #FF4500;
+    font-size: larger;
+}
+--- /code ---
 
-+ Change the values of `grid-template-columns` and `grid-template-areas` to:
+</div>
+--- /task ---
 
-```css
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas: 
-        "egArticle egAside1"
-        "egArticle egAside2";
-```
+<h2 class="c-project-heading--task">Test</h2>
 
-![Asides are down the right hand side](images/cssGridAsidesOnRight.png)
-
-+ If you don't want the `aside` elements to stretch all the way to the bottom, you can add a blank space using a dot: 
-
-```css
-    grid-template-areas: 
-        "egArticle egAside1"
-        "egArticle egAside2"
-        "egArticle . ";
-```
-
-![Asides on the right and not stretched down](images/cssGridAsidesTopRight.png)
-
---- challenge ---
-
-## Challenge: make different layouts for different screen sizes
-
-+ Can you use the screen size checks you added earlier to make the layout change depending on how wide the screen is? Note: if you already created CSS blocks for each screen size, you can add the new CSS code to those blocks instead of creating new ones.
-
---- hints ---
-
---- hint ---
-
-The following code defines a layout for the CSS class above when the screen is bigger than 1000 pixels:
-
-```css
-    @media all and (min-width: 1000px) {
-        .myPageLayoutGrid {
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas: 
-                "egArticle egArticle"
-                "egAside1 egAside2";
-        }
-    }  
-```
-
---- /hint ---
-
---- hint ---
-
-The following code defines a layout for the CSS class above when the screen is bigger than 1600 pixels:
-
-```css
-    @media all and (min-width: 1600px) {
-        .myPageLayoutGrid {
-            grid-template-columns: 1fr 1fr;
-            grid-template-areas: 
-                "egArticle egAside1"
-                "egArticle egAside2"
-                "egArticle .";
-        }
-    }  
-```
-
---- /hint ---
-
---- /hints ---
-
---- /challenge ---
-
-With **CSS grid**, you can make almost any layout you like. If you want to learn more, go to [dojo.soy/se-css-grid](http://dojo.soy/se-css-grid){:target="_blank"}
+--- task ---
+Open `birds.html` and confirm the extra notes appear outside the main bird list in their own styled boxes.
+--- /task ---

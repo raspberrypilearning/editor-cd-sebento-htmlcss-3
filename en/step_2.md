@@ -1,6 +1,29 @@
-## Getting set up
+<h2 class="c-project-heading--task">Add a featured image caption</h2>
 
-To work through these Sushi Cards, you'll need to start with a website that you already made. For example, you can use the one that you made in the [HTML/CSS Intermediate Sushi Card series](https://projects.raspberrypi.org/en/projects/cd-intermediate-html-css-sushi){:target="_blank"}. If you prefer, you can work with [this trinket](http://dojo.soy/se-html3-start){:target="_blank"}, which is ready to use.
+--- task ---
+Wrap the owl image in a `figure` so you can add a proper caption underneath it.
 
-As you'll be working with lots of code, you may find it easier to use an offline text editor on your computer instead of Trinket. You can download code from Trinket by selecting **Download** from the **Share** menu.
+<div class="c-project-code">
 
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 31
+line_highlights: 31-34
+---
+    <figure>
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+      <figcaption>Owly the barn owl</figcaption>
+    </figure>
+--- /code ---
+
+</div>
+--- /task ---
+
+<h2 class="c-project-heading--task">Test</h2>
+
+--- task ---
+Open the homepage and confirm the owl image now has a caption directly below it.
+--- /task ---
