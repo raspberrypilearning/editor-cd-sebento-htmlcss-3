@@ -1,73 +1,51 @@
-<h2 class="c-project-heading--task">Style the side notes</h2>
+<h2 class="c-project-heading--task">Test the character form check</h2>
 
 --- task ---
 
-Style your side notes so they stand out from the main article and make the extra information easier to spot.
+Add a JavaScript check for your character details form so you can test how the page responds when fields are left empty.
 
 --- /task ---
 
-Add a class to each `aside`, then use CSS to give the notes their own look.
-
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: birds.html
+language: js
+filename: scripts.js
 line_numbers: true
-line_number_start: 118
-line_highlights: 118,131,133
+line_number_start: 31
+line_highlights: 32-34,36,38-44,46-52
 ---
-      <aside class="sideNoteStyle">
-        <h3>Threats to birds</h3>
-        <p>
-          Some of the main reasons you might observe declining numbers are:
-        </p>
-      </aside>
+// Function to check the character details form
+const alertBox = document.querySelector("#alert");
 
-      <aside class="sideNoteStyle">
-        <h3>Useful links</h3>
-        <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
-          <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
-        <p>Check out the Wikipedia <a href="https://en.wikipedia.org/wiki/Bird_conservation">article</a>.</p>
-      </aside>
+function checkForm() {
+
+  var alertMessage = "";
+
+  if (characterName.value == "") {
+    alertMessage = "Please enter a name";
+  } else if (characterAbility.value == "") {
+    alertMessage = "Please choose an ability";
+  } else if (characterOrigin.value == "") {
+    alertMessage = "Please write the origin story";
+  }
+
+  if (alertMessage != "") {
+    alertBox.innerText = alertMessage;
+    alertBox.style.display = "block";
+  } else {
+    alertBox.style.display = "none";
+    displaySummary();
+  }
+}
 --- /code ---
 
 </div>
 
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 196
-line_highlights: 197-209
----
-}
-
-.sideNoteStyle {
-  border: dotted 1px purple;
-  background-color: #cddffe;
-  padding: 0.5em;
-  margin: 0.5em;
-}
-.warnOrange {
-    background-color: #ffa500;
-}
-.warnRed {
-    color: #FF4500;
-    font-size: larger;
-}
-.myPageLayoutGrid {
-    display: grid;
---- /code ---
-
-</div>
 --- task ---
 
-Click **Run** and check that the side notes appear in styled boxes and that the words `amber` and `red` stand out.
+Click **Run** and test the form with missing fields to check that the correct warning appears.
 
 --- /task ---
 

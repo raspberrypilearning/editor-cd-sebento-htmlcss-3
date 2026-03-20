@@ -2,11 +2,10 @@
 
 --- task ---
 
-Add side notes to your birds page so you can include extra facts and useful links without crowding the main article.
+Add side notes to your **birds.html** page so you can include extra facts and useful links without crowding the main article.
 
 --- /task ---
 
-This is a good job for `aside` elements, because the information is useful but does not belong inside the main list of birds.
 
 <div class="c-project-code">
 
@@ -15,8 +14,8 @@ This is a good job for `aside` elements, because the information is useful but d
 language: html
 filename: birds.html
 line_numbers: true
-line_number_start: 114
-line_highlights: 118-138
+line_number_start: 80
+line_highlights: 82-99
 ---
       </article>
       
@@ -43,6 +42,7 @@ line_highlights: 118-138
 --- /code ---
 
 </div>
+
 --- task ---
 
 Click **Run** and check that the extra notes appear outside the main bird list on the birds page.

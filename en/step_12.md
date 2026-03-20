@@ -2,18 +2,29 @@
 
 --- task ---
 
-Use a grid layout to organise the birds page so the main article and side notes sit in a cleaner, more interesting arrangement.
-
-**Code snippet 1: Add grid classes to the main content and side notes.**
+Use a grid layout to organise the **birds.html** page so the main article and side notes sit in a cleaner, more interesting arrangement.
 
 --- /task ---
 
-CSS grid is a powerful way to control page layout. Here you will use it to give the article more space and move the side notes into their own column.
+--- task ---
+
+First, add `class="myPageLayoutGrid"` to the existing `main` element.
+
+--- /task ---
+
+--- task ---
+
+Then add classes to the existing content elements:
+
+- add `class="myGridArticle"` to the existing `article`
+- add `class="sideNoteStyle myGridAside1"` to the first existing `aside`
+- add `class="sideNoteStyle myGridAside2"` to the second existing `aside`
+
+--- /task ---
 
 <div class="c-project-code">
 
 --- code ---
----
 language: html
 filename: birds.html
 line_numbers: true
@@ -38,7 +49,11 @@ line_highlights: 20,49,118,131
 
 </div>
 
-**Code snippet 2: Define the grid layout in `styles.css`.**
+--- task ---
+
+In `styles.css`, add the grid rules.
+
+--- /task ---
 
 <div class="c-project-code">
 

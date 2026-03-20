@@ -2,11 +2,10 @@
 
 --- task ---
 
-Make your navigation menu responsive so it works neatly on small screens first and then spreads out on larger screens.
+Make your navigation menu responsive in **styles.css** so it works neatly on small screens first and then spreads out on larger screens.
 
 --- /task ---
 
-You will start with the menu stacked for smaller screens, then use media queries to adjust the layout when there is more space.
 
 <div class="c-project-code">
 
@@ -16,7 +15,7 @@ language: css
 filename: styles.css
 line_numbers: true
 line_number_start: 12
-line_highlights: 19-20,29,41-52
+line_highlights: 19-20, 25-28, 41052
 ---
 nav ul {
   background-color: tomato;
@@ -74,7 +73,7 @@ Click **Run**, make the browser narrow and wide, and check that the menu stacks 
 
 <div class="c-project-output">
 
-![screenshot of output](step10.png)
+![screenshot of output](step10.gif)
 
 </div>
 
