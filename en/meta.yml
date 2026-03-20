@@ -29,13 +29,12 @@ steps:
   - title: Step 11
   - title: Step 12
   - title: Step 13
-  - title: Step 14
     completion:
       - internal
-  - title: Step 15
+  - title: Step 14
     completion:
       - external
-  - title: Step 16
+  - title: Step 15
     challenge: true
-  - title: Step 17
+  - title: Step 16
     challenge: true

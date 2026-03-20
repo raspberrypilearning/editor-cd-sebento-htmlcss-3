@@ -1,51 +1,46 @@
-<h2 class="c-project-heading--task">Test the character form check</h2>
+<h2 class="c-project-heading--task">Style the side notes</h2>
 
 --- task ---
 
-Add a JavaScript check for your character details form so you can test how the page responds when fields are left empty.
+Style your side notes so they stand out from the main article and make the extra information easier to spot.
 
 --- /task ---
+
+The `sideNoteStyle` class was added in the previous step. In this step, use CSS to give those side notes their own look.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: js
-filename: scripts.js
+language: css
+filename: styles.css
 line_numbers: true
-line_number_start: 31
-line_highlights: 32-34,36,38-44,46-52
+line_number_start: 196
+line_highlights: 197-209
 ---
-// Function to check the character details form
-const alertBox = document.querySelector("#alert");
-
-function checkForm() {
-
-  var alertMessage = "";
-
-  if (characterName.value == "") {
-    alertMessage = "Please enter a name";
-  } else if (characterAbility.value == "") {
-    alertMessage = "Please choose an ability";
-  } else if (characterOrigin.value == "") {
-    alertMessage = "Please write the origin story";
-  }
-
-  if (alertMessage != "") {
-    alertBox.innerText = alertMessage;
-    alertBox.style.display = "block";
-  } else {
-    alertBox.style.display = "none";
-    displaySummary();
-  }
 }
+
+.sideNoteStyle {
+  border: dotted 1px purple;
+  background-color: #cddffe;
+  padding: 0.5em;
+  margin: 0.5em;
+}
+.warnOrange {
+    background-color: #ffa500;
+}
+.warnRed {
+    color: #FF4500;
+    font-size: larger;
+}
+.myPageLayoutGrid {
+    display: grid;
 --- /code ---
 
 </div>
-
 --- task ---
 
-Click **Run** and test the form with missing fields to check that the correct warning appears.
+Click **Run** and check that the side notes appear in styled boxes and that the words `amber` and `red` stand out.
 
 --- /task ---
 

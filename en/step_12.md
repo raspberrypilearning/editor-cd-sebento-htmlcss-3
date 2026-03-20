@@ -14,11 +14,7 @@ First, add `class="myPageLayoutGrid"` to the existing `main` element.
 
 --- task ---
 
-Then add classes to the existing content elements:
-
-- add `class="myGridArticle"` to the existing `article`
-- add `class="sideNoteStyle myGridAside1"` to the first existing `aside`
-- add `class="sideNoteStyle myGridAside2"` to the second existing `aside`
+Then add `class="myGridArticle"` to the existing `article`
 
 --- /task ---
 
@@ -30,23 +26,50 @@ language: html
 filename: birds.html
 line_numbers: true
 line_number_start: 20
-line_highlights: 20,49,118,131
+line_highlights: 20, 22
 ---
   <main class="myPageLayoutGrid">
     
     <article class="myGridArticle">
       <h1>Birds of conservation concern in Ireland</h1>
     </article>
-    
-    <aside class="sideNoteStyle myGridAside1">
-      <h3>Threats to birds</h3>
-    </aside>
-    
-    <aside class="sideNoteStyle myGridAside2">
-      <h3>Useful links</h3>
-    </aside>
-  </main>
 --- /code ---
+
+</div>
+
+--- task ---
+
+Then add `class="sideNoteStyle myGridAside1"` and `class="sideNoteStyle myGridAside2"`.
+
+--- /task ---
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: birds.html
+line_numbers: true
+line_number_start: 82
+line_highlights: 82, 94
+---
+    <aside class="sideNoteStyle myGridAside1">
+        <h3>Threats to birds</h3>
+        <p>
+          Some of the main reasons you might observe declining numbers are:
+        </p>
+        <ol>
+          <li>Habitat destruction</li>
+          <li>Pollution</li>
+          <li>Climate change</li>
+        </ol>
+      </aside>
+
+   <aside class="sideNoteStyle myGridAside2">
+        <h3>Useful links</h3>
+      
+--- /code ---
+
 
 </div>
 
@@ -63,9 +86,16 @@ In `styles.css`, add the grid rules.
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 212
-line_highlights: 212-231
+line_number_start: 154
+line_highlights: 161-183
 ---
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
 .myPageLayoutGrid {
     display: grid;
     grid-column-gap: 0.5em;
@@ -77,12 +107,15 @@ line_highlights: 212-231
         "egArticle egAside2"
         "egArticle .";
 }
+
 .myGridArticle {
     grid-area: egArticle;
 }
+
 .myGridAside1 {
     grid-area: egAside1;
 }
+
 .myGridAside2 {
     grid-area: egAside2;
 }
