@@ -130,6 +130,6 @@ Click **Run** and check that the main article takes the wider column while the t
 
 <div class="c-project-output">
 
-![screenshot of output](step12.png)
+![screenshot of output](images/cssGridAsidesOnRight.png)
 
 </div>

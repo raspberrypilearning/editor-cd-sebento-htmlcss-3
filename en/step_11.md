@@ -51,6 +51,6 @@ Click **Run** and check that the extra notes appear outside the main bird list o
 
 <div class="c-project-output">
 
-![screenshot of output](step11.png)
+![screenshot of output](images/cssGridAsidesAtBottom.png)
 
 </div>

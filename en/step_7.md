@@ -45,6 +45,6 @@ Click **Run** and check that the cards sit in a row when there is space and wrap
 
 <div class="c-project-output">
 
-![screenshot of output](step7.gif)
+![screenshot of output](images/flexSideBySide.png)
 
 </div>

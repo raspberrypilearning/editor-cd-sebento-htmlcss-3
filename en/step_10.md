@@ -73,7 +73,9 @@ Click **Run**, make the browser narrow and wide, and check that the menu stacks 
 
 <div class="c-project-output">
 
-![screenshot of output](step10.gif)
+![screenshot of output](images/responsiveMenuMobile.png)
+
+![screenshot of output](images/responsiveMenuWide.png)
 
 </div>
 

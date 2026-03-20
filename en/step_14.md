@@ -96,6 +96,6 @@ Click **Run**, open `birds.html`, and click a bird image to confirm the lightbox
 
 <div class="c-project-output">
 
-![screenshot of output](step14.png)
+![screenshot of output](images/lightboxOwl.png)
 
 </div>

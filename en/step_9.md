@@ -39,7 +39,7 @@ Click **Run** and check that the owl image now has a caption directly below it.
 
 <div class="c-project-output">
 
-![screenshot of output](step9.png)
+![screenshot of output](images/figureAndCaption.png)
 
 </div>
 

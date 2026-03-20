@@ -67,6 +67,6 @@ Click **Run** and check that you now have more than one card on the homepage, wi
 
 <div class="c-project-output">
 
-![screenshot of output](step5.gif)
+![screenshot of output](images/cardsPreview.png)
 
 </div>

@@ -79,6 +79,6 @@ Click **Run** and check that the card now has a border, rounded corners, and a s
 
 <div class="c-project-output">
 
-![screenshot of output](step3.png)
+![screenshot of output](images/cardStyled.png)
 
 </div>

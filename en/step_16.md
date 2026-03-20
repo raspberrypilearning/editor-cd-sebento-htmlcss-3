@@ -91,3 +91,10 @@ line_highlights: 235-288
 Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.
 
 --- /task ---
+
+
+<div class="c-project-output">
+
+![screenshot of output](images/photoCollageExample.png)
+
+</div>

@@ -51,6 +51,6 @@ Click **Run** and check that the Barn Owl card is clickable and opens the Barn O
 
 <div class="c-project-output">
 
-![screenshot of output](step4.gif)
+![screenshot of output](images/cardLink.png)
 
 </div>

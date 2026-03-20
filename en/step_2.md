@@ -43,6 +43,6 @@ Click **Run** and check that a new Barn Owl card appears on your homepage under 
 
 <div class="c-project-output">
 
-![screenshot of output](step2.png)
+![screenshot of output](images/cardUnstyled.png)
 
 </div>

@@ -46,6 +46,6 @@ Click **Run** and check that each card stays centred, even when you make the bro
 
 <div class="c-project-output">
 
-![screenshot of output](step6.png)
+![screenshot of output](images/marginAuto.png)
 
 </div>
