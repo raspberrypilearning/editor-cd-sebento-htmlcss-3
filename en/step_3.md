@@ -2,10 +2,17 @@
 
 --- task ---
 
-Style your preview card so it looks more like a polished feature on your homepage, with a neat thumbnail and a clear card shape.
+Style your preview card by making the image into a thumbnail and a clear card shape.
 
 --- /task ---
 
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+A thumbnail is a small picture that shows a preview of something bigger. It is used so you can quickly see what something is without opening it.
+
+</div>
 
 --- task ---
 
@@ -16,7 +23,7 @@ Click on the project file tab and select **styles.css**
 
 --- task ---
 
-Add the highlighted CSS below to create a small card with a rounded picture.
+Add the highlighted CSS below to create a small card with a rounded picture. You can experiment with the border and colour setting to look how you want it.
 
 --- /task ---
 
@@ -28,7 +35,7 @@ language: css
 filename: styles.css
 line_numbers: true
 line_number_start: 105
-line_highlights: 109-125
+line_highlights: 109-132
 ---
 .niceLinks:hover {
   color: #00FF7F;
@@ -38,6 +45,7 @@ line_highlights: 109-125
     height: 60px;
     border-radius: 10px;
 }
+
 .card {
     width: 200px;
     height: 200px;
@@ -48,8 +56,14 @@ line_highlights: 109-125
     margin-top: 10px;
     font-family: "Trebuchet MS", sans-serif;
 }
+
 .card:hover {
     border-color: #1E90FF;
+}
+
+.cardLink {
+  color: inherit;
+  text-decoration: none;
 }
 
 /**********************************

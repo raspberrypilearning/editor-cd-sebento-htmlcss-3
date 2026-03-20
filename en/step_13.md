@@ -1,39 +1,61 @@
-<h2 class="c-project-heading--task">Challenge: Create a photo collage</h2>
+<h2 class="c-project-heading--task">Add a lightbox effect</h2>
 
 --- task ---
 
-Build a photo collage on your homepage so the site feels richer and more eye-catching.
+Add a lightbox effect so bird photos on `birds.html` can open in a larger overlay when clicked.
 
 --- /task ---
 
-Exact positioning lets you place images wherever you want instead of leaving them in a simple row. That makes it ideal for building a collage.
+A lightbox is a handy way to show larger photos without leaving the page.
 
-**Code snippet 1: Add the collage container and images to `index.html`.**
-
+**Code snippet 1: Add lightbox links and wrap bird images so they open the matching popup.**
 
 <div class="c-project-code">
 
 --- code ---
 ---
 language: html
-filename: index.html
+filename: birds.html
 line_numbers: true
-line_number_start: 81
-line_highlights: 81-88
+line_number_start: 22
+line_highlights: 22-46,61-62,70-71,75-76,85-86,94-95
 ---
-    <div id="photoBox" class="relPos">
-        <img id="imgYoungKestrel" class="collagePhoto absPos" src="young-kestrel.jpg" alt="A young kestrel" />
-        <img id="imgYoungKestrelTree" class="collagePhoto absPos" src="baby-kestrel.jpg" alt="A young kestrel on a branch" />
-        <img id="imgKestrelSky" class="collagePhoto absPos" src="kestrel-flying.jpg" alt="A kestrel flying" />
-        <img id="imgHello" class="collagePhoto absPos" src="bird-kestrel.jpg" alt="Closeup of a kestrel's face" />
-        <img id="imgKestrel" class="collagePhoto absPos" src="kestrel-mirror.jpg" alt="A kestrel perched by a mirror" />
-        <p id="photoText" class="absPos"><em>The Kestrel</em></p>
-    </div>
+    <a href="#_" class="lightbox" id="boxBarnowl">
+      <h3>Hi there!</h3>
+      <img src="barn-owl-landing.jpg" alt="Picture of a barn owl" />
+      <p>Owly the barn owl dropping in for lunch</p>
+    </a>
+
+    <a href="#_" class="lightbox" id="boxCurlew1">
+      <h3>Curlew</h3>
+      <img src="curlew.jpg" alt="A curlew on the sand" />
+    </a>
+
+    <a href="#_" class="lightbox" id="boxCurlew2">
+      <h3>Curlew</h3>
+      <img src="curlew2.jpg" alt="A curlew facing the camera" />
+    </a>
+
+    <a href="#_" class="lightbox" id="boxYellowh">
+      <h3>Yellowhammer</h3>
+      <img src="yellowhammer.jpg" alt="A yellowhammer in a tree" />
+    </a>
+
+    <a href="#_" class="lightbox" id="boxLapwing">
+      <h3>Lapwing</h3>
+      <img src="lapwing.jpg" alt="Picture of a lapwing" />
+    </a>
+
+    <a href="#boxBarnowl"><img src="barn-owl-landing.jpg" alt="Barn owl landing on a branch" class="mediumPictures" /></a>
+    <a href="#boxCurlew1"><img src="curlew.jpg" class="smallPictures" /></a>
+    <a href="#boxCurlew2"><img src="curlew2.jpg" class="smallPictures" /></a>
+    <a href="#boxYellowh"><img src="yellowhammer.jpg" width="200px" /></a>
+    <a href="#boxLapwing"><img src="lapwing.jpg" width="200px" /></a>
 --- /code ---
 
 </div>
 
-**Code snippet 2: Position the images so they overlap like a collage.**
+**Code snippet 2: Add the lightbox styles.**
 
 <div class="c-project-code">
 
@@ -42,68 +64,33 @@ line_highlights: 81-88
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 235
-line_highlights: 235-288
+line_number_start: 146
+line_highlights: 146-160
 ---
-#imgYoungKestrel {
-    width: 230px;
-    top: 100px;
-    left: 20px;
-    z-index: 6;
+.lightbox{
+    background: rgba(0,0,0,0.8);
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    visibility: hidden;
+    z-index: 999;
 }
-#imgYoungKestrelTree {
-    width: 250px;
-    top: 210px;
-    left: 160px;
-    z-index: 10;
-}
-#imgKestrelSky {
-    width: 250px;
-    top: 65px;
-    left: 180px;
-    z-index: 8;
-}
-#imgHello {
-    width: 150px;
-    top: 10px;
-    left: 340px;
-    z-index: 9;
-}
-#imgKestrel {
-    width: 200px;
-    top: 120px;
-    left: 360px;
-    z-index: 7;
-}
-#photoText {
-    font-family: "Times New Roman", serif;
-    color: #cc6699;
-    font-size: 22px;
-    left: 185px;
-    top: 190px;
-    z-index: 20;
+.lightbox:target {
+    visibility: visible;
 }
 
-.collagePhoto {
-    border: 1px solid white;
-}
-.relPos {
-    position: relative;
-}
-.absPos {
-    position: absolute;
-}
-
-#photoBox {
-    width: 800px;
-    height: 400px;
-}
+.tinyPicture {
 --- /code ---
 
 </div>
 --- task ---
 
-Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.
+Click **Run**, open `birds.html`, and click a bird image to confirm the lightbox appears and closes when you click away.
 
 --- /task ---
 

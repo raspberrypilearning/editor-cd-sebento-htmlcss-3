@@ -1,12 +1,14 @@
-<h2 class="c-project-heading--task">Style the side notes</h2>
+<h2 class="c-project-heading--task">Build a page grid</h2>
 
 --- task ---
 
-Style your side notes so they stand out from the main article and make the extra information easier to spot.
+Use a grid layout to organise the birds page so the main article and side notes sit in a cleaner, more interesting arrangement.
+
+**Code snippet 1: Add grid classes to the main content and side notes.**
 
 --- /task ---
 
-Add a class to each `aside`, then use CSS to give the notes their own look.
+CSS grid is a powerful way to control page layout. Here you will use it to give the article more space and move the side notes into their own column.
 
 <div class="c-project-code">
 
@@ -15,25 +17,28 @@ Add a class to each `aside`, then use CSS to give the notes their own look.
 language: html
 filename: birds.html
 line_numbers: true
-line_number_start: 118
-line_highlights: 118,131,133
+line_number_start: 20
+line_highlights: 20,49,118,131
 ---
-      <aside class="sideNoteStyle">
-        <h3>Threats to birds</h3>
-        <p>
-          Some of the main reasons you might observe declining numbers are:
-        </p>
-      </aside>
-
-      <aside class="sideNoteStyle">
-        <h3>Useful links</h3>
-        <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
-          <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
-        <p>Check out the Wikipedia <a href="https://en.wikipedia.org/wiki/Bird_conservation">article</a>.</p>
-      </aside>
+  <main class="myPageLayoutGrid">
+    
+    <article class="myGridArticle">
+      <h1>Birds of conservation concern in Ireland</h1>
+    </article>
+    
+    <aside class="sideNoteStyle myGridAside1">
+      <h3>Threats to birds</h3>
+    </aside>
+    
+    <aside class="sideNoteStyle myGridAside2">
+      <h3>Useful links</h3>
+    </aside>
+  </main>
 --- /code ---
 
 </div>
+
+**Code snippet 2: Define the grid layout in `styles.css`.**
 
 <div class="c-project-code">
 
@@ -42,32 +47,35 @@ line_highlights: 118,131,133
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 196
-line_highlights: 197-209
+line_number_start: 212
+line_highlights: 212-231
 ---
-}
-
-.sideNoteStyle {
-  border: dotted 1px purple;
-  background-color: #cddffe;
-  padding: 0.5em;
-  margin: 0.5em;
-}
-.warnOrange {
-    background-color: #ffa500;
-}
-.warnRed {
-    color: #FF4500;
-    font-size: larger;
-}
 .myPageLayoutGrid {
     display: grid;
+    grid-column-gap: 0.5em;
+    grid-row-gap: 1em;
+    grid-template-rows: auto;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+        "egArticle egAside1"
+        "egArticle egAside2"
+        "egArticle .";
+}
+.myGridArticle {
+    grid-area: egArticle;
+}
+.myGridAside1 {
+    grid-area: egAside1;
+}
+.myGridAside2 {
+    grid-area: egAside2;
+}
 --- /code ---
 
 </div>
 --- task ---
 
-Click **Run** and check that the side notes appear in styled boxes and that the words `amber` and `red` stand out.
+Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.
 
 --- /task ---
 

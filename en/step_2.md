@@ -6,6 +6,12 @@ Add a preview card to your homepage so visitors can quickly spot one of your fea
 
 --- /task ---
 
+--- task ---
+
+Add the following HTML code to **index.html**.
+
+--- /task ---
+
 <div class="c-project-code">
 
 --- code ---

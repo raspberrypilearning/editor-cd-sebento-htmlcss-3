@@ -30,7 +30,7 @@ line_highlights: 32, 38
 --- 
    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />   
    
-    <a href="birds.html#scBarnowl" class="cardLink">
+    <a href="birds.html" class="cardLink">
       <article class="card">
         <img src="barn-owl-landing.jpg" class="tinyPicture">
         <h3>Barn Owl</h3>
@@ -45,41 +45,12 @@ line_highlights: 32, 38
 
 --- task ---
 
-In **styles.css** add `cardlink` styles.
-
---- /task ---
-
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 176
-line_highlights: 179-182
----
-    margin-left: auto;
-    margin-right: auto;
-}
-.cardLink {
-  color: inherit;
-  text-decoration: none;
-}
---- /code ---
-
-</div>
-
-
---- task ---
-
 Click **Run** and check that the Barn Owl card is clickable and opens the Barn Owl section on `birds.html`.
 
 --- /task ---
 
 <div class="c-project-output">
 
-![screenshot of output](step4.png)
+![screenshot of output](step4.gif)
 
 </div>
