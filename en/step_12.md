@@ -25,6 +25,7 @@ Then add classes to the existing content elements:
 <div class="c-project-code">
 
 --- code ---
+---
 language: html
 filename: birds.html
 line_numbers: true
