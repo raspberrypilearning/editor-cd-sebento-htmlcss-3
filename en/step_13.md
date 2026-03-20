@@ -2,11 +2,9 @@
 
 --- task ---
 
-Style your side notes so they stand out from the main article and make the extra information easier to spot.
+Style your side notes in **styles.css** so they stand out from the main article and make the extra information easier to spot.
 
 --- /task ---
-
-The `sideNoteStyle` class was added in the previous step. In this step, use CSS to give those side notes their own look.
 
 <div class="c-project-code">
 
@@ -15,9 +13,11 @@ The `sideNoteStyle` class was added in the previous step. In this step, use CSS 
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 196
-line_highlights: 197-209
+line_number_start: 181
+line_highlights: 185-197
 ---
+.myGridAside2 {
+    grid-area: egAside2;
 }
 
 .sideNoteStyle {
@@ -33,8 +33,6 @@ line_highlights: 197-209
     color: #FF4500;
     font-size: larger;
 }
-.myPageLayoutGrid {
-    display: grid;
 --- /code ---
 
 </div>

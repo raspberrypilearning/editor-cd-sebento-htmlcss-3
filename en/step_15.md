@@ -6,9 +6,14 @@ Build a photo collage on your homepage so the site feels richer and more eye-cat
 
 --- /task ---
 
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
 Exact positioning lets you place images wherever you want instead of leaving them in a simple row. That makes it ideal for building a collage.
 
-**Code snippet 1: Add the collage container and images to `index.html`.**
+</div>
+
 
 
 <div class="c-project-code">
@@ -18,9 +23,18 @@ Exact positioning lets you place images wherever you want instead of leaving the
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 81
-line_highlights: 81-88
+line_number_start: 68
+line_highlights: 77-84
 ---
+     <a href="birds.html" class="cardLink">
+      <article class="card">
+        <img src="hen-harrier.jpg" class="tinyPicture">
+        <h3>Hen Harrier</h3>
+        <p>Habitat: open countryside</p>
+      </article>
+    </a>
+        </div>
+
     <div id="photoBox" class="relPos">
         <img id="imgYoungKestrel" class="collagePhoto absPos" src="young-kestrel.jpg" alt="A young kestrel" />
         <img id="imgYoungKestrelTree" class="collagePhoto absPos" src="baby-kestrel.jpg" alt="A young kestrel on a branch" />
@@ -29,6 +43,8 @@ line_highlights: 81-88
         <img id="imgKestrel" class="collagePhoto absPos" src="kestrel-mirror.jpg" alt="A kestrel perched by a mirror" />
         <p id="photoText" class="absPos"><em>The Kestrel</em></p>
     </div>
+
+    	  </main>
 --- /code ---
 
 </div>

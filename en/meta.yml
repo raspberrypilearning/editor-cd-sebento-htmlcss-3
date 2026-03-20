@@ -32,8 +32,7 @@ steps:
     completion:
       - internal
   - title: Step 14
-    completion:
-      - external
+    challenge: true
   - title: Step 15
     challenge: true
   - title: Step 16

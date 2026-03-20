@@ -1,14 +1,10 @@
-<h2 class="c-project-heading--task">Add a lightbox effect</h2>
+<h2 class="c-project-heading--task">Challenge: Add a lightbox effect</h2>
 
 --- task ---
 
 Add a lightbox effect so bird photos on `birds.html` can open in a larger overlay when clicked.
 
 --- /task ---
-
-A lightbox is a handy way to show larger photos without leaving the page.
-
-**Code snippet 1: Add lightbox links and wrap bird images so they open the matching popup.**
 
 <div class="c-project-code">
 
@@ -55,7 +51,11 @@ line_highlights: 22-46,61-62,70-71,75-76,85-86,94-95
 
 </div>
 
-**Code snippet 2: Add the lightbox styles.**
+--- task ---
+
+In `styles.css`, add the `.lightbox` and `.lightbox:target` rules.
+
+--- /task ---
 
 <div class="c-project-code">
 
