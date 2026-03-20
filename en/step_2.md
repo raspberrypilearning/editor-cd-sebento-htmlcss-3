@@ -12,6 +12,11 @@ Preview cards are a handy way to show off different parts of your site. Start by
 
 --- /task ---
 
+
+
+
+
+
 <div class="c-project-code">
 
 --- code ---
@@ -29,6 +34,16 @@ line_highlights: 32-36
 <h3>Barn Owl</h3>
 <p>Habitat: farmland, grassland</p>
 </article>     	    
+
+      <a href="birds.html#scCurlew" class="cardLink">
+        <article class="card">
+          <img src="curlew2.jpg" class="tinyPicture">
+          <h3>Curlew</h3>
+          <p>Habitat: wet grasslands</p>
+        </article>
+      </a>
+
+
 
 </main>
 --- /code ---
