@@ -1,51 +1,68 @@
-<h2 class="c-project-heading--task">Add side notes to the birds page</h2>
+<h2 class="c-project-heading--task">Make the menu responsive</h2>
 
 --- task ---
 
-Add side notes to your birds page so you can include extra facts and useful links without crowding the main article.
+Make your navigation menu responsive so it works neatly on small screens first and then spreads out on larger screens.
 
 --- /task ---
 
-This is a good job for `aside` elements, because the information is useful but does not belong inside the main list of birds.
+You will start with the menu stacked for smaller screens, then use media queries to adjust the layout when there is more space.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: birds.html
+language: css
+filename: styles.css
 line_numbers: true
-line_number_start: 114
-line_highlights: 118-138
+line_number_start: 14
+line_highlights: 19,21-23,32-35,44-55
 ---
-      </article>
-      
-      <aside>
-        <h3>Threats to birds</h3>
-        <p>
-          Some of the main reasons you might observe declining numbers are:
-        </p>
-        <ol>
-          <li>Habitat destruction</li>
-          <li>Pollution</li>
-          <li>Climate change</li>
-        </ol>
-      </aside>
+nav ul {
+    background-color: tomato;
+    border-style: solid;
+    border-color: MediumVioletRed;
+    border-width: 2px;
+    padding: 0.5em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
 
-      <aside>
-        <h3>Useful links</h3>
-        <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
-          <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
-        <p>Check out the Wikipedia <a href="https://en.wikipedia.org/wiki/Bird_conservation">article</a>.</p>
-      </aside>
-      
-    </main>
+nav ul li {
+    color: PapayaWhip;
+    text-align: center;
+    list-style-type: none;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+nav ul li a {
+  text-decoration: none;
+  color: indigo;
+}
+
+@media all and (min-width: 400px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+@media all and (min-width: 1600px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+}
+.darkerBackground {
+  background-color: #99bbff;
+}
 --- /code ---
 
 </div>
 --- task ---
 
-Click **Run** and check that the extra notes appear outside the main bird list on the birds page.
+Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
 
 --- /task ---
 

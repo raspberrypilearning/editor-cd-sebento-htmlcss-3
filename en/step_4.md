@@ -28,8 +28,8 @@ line_numbers: true
 line_number_start: 30
 line_highlights: 32, 38
 --- 
-   <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />   
-   
+    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+    
     <a href="birds.html" class="cardLink">
       <article class="card">
         <img src="barn-owl-landing.jpg" class="tinyPicture">

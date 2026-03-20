@@ -2,27 +2,29 @@
 
 --- task ---
 
-Now that the Barn Owl card works, add more cards so your homepage links to the other bird sections too.
+Now that the Barn Owl card works, add more cards for the other birds on your site.
 
 --- /task ---
 
-The sections on `birds.html` already give you useful names and anchor IDs to link to:
-
 --- task ---
 
-Make cards for these birds from `birds.html`:
-- Curlew links to `#scCurlew`
-- Yellowhammer links to `#scYellowh`
-- Lapwing links to `#scLapwing`
-- You can also add one for `#scOther` if you want an extra card
+Make cards for more birds from your project, such as:
+- Curlew
+- Yellowhammer
+- Lapwing
+- Hen Harrier
 
 --- /task ---
 
-Each new card follows the same pattern as the Barn Owl card. Change the picture, heading text, habitat text, and the `href` value so they match the bird you are linking to.
+--- task ---
+
+When you have added all of your bird cards, wrap the whole set of card links in one `div` with the class `cardContainer`.
+
+--- /task ---
 
 --- task ---
 
-In **index.html**, add another linked card. For example, here is one for Curlew:
+In **index.html**, add more linked cards. For example, here is the Barn Owl card followed by one for Curlew:
 
 --- /task ---
 
@@ -33,24 +35,26 @@ In **index.html**, add another linked card. For example, here is one for Curlew:
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 36
-line_highlights: 37-44
+line_number_start: 32
+line_highlights: 32, 41-48
 ---
-    <a href="birds.html#scBarnowl" class="cardLink">
-      <article class="card">
-        <img src="barn-owl-landing.jpg" class="tinyPicture">
-        <h3>Barn Owl</h3>
-        <p>Habitat: farmland, grassland</p>
-      </article>
-    </a>
+    <div class="cardContainer">
+      <a href="birds.html" class="cardLink">
+        <article class="card">
+          <img src="barn-owl-landing.jpg" class="tinyPicture">
+          <h3>Barn Owl</h3>
+          <p>Habitat: farmland, grassland</p>
+        </article>
+      </a>
 
-    <a href="birds.html#scCurlew" class="cardLink">
-      <article class="card">
-        <img src="curlew2.jpg" class="tinyPicture">
-        <h3>Curlew</h3>
-        <p>Habitat: wet grasslands</p>
-      </article>
-    </a>
+      <a href="birds.html" class="cardLink">
+        <article class="card">
+          <img src="curlew2.jpg" class="tinyPicture">
+          <h3>Curlew</h3>
+          <p>Habitat: wet grasslands</p>
+        </article>
+      </a>
+    </div>
 --- /code ---
 
 </div>
@@ -63,6 +67,6 @@ Click **Run** and check that you now have more than one card on the homepage, wi
 
 <div class="c-project-output">
 
-![screenshot of output](step5.png)
+![screenshot of output](step5.gif)
 
 </div>

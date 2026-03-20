@@ -1,68 +1,38 @@
-<h2 class="c-project-heading--task">Make the menu responsive</h2>
+<h2 class="c-project-heading--task">Add a featured image caption</h2>
 
 --- task ---
 
-Make your navigation menu responsive so it works neatly on small screens first and then spreads out on larger screens.
+Group the owl image and its caption together so the homepage feels more finished and the picture has a clear label.
 
 --- /task ---
 
-You will start with the menu stacked for smaller screens, then use media queries to adjust the layout when there is more space.
+`figure` and `figcaption` are useful when a picture and its text belong together and should be treated as one part of the page.
 
 <div class="c-project-code">
-
 --- code ---
 ---
-language: css
-filename: styles.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 14
-line_highlights: 19,21-23,32-35,44-55
+line_number_start: 29
+line_highlights: 31-34
 ---
-nav ul {
-    background-color: tomato;
-    border-style: solid;
-    border-color: MediumVioletRed;
-    border-width: 2px;
-    padding: 0.5em;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-}
+    </p>
 
-nav ul li {
-    color: PapayaWhip;
-    text-align: center;
-    list-style-type: none;
-    margin-right: 0.5em;
-    margin-left: 0.5em;
-}
-nav ul li a {
-  text-decoration: none;
-  color: indigo;
-}
+    <figure>
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+      <figcaption>Owly the barn owl</figcaption>
+    </figure>
 
-@media all and (min-width: 400px) {
-    nav ul {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-}
-
-@media all and (min-width: 1600px) {
-    nav ul {
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-}
-.darkerBackground {
-  background-color: #99bbff;
-}
+    <div class="cardContainer">
 --- /code ---
 
 </div>
+
+
 --- task ---
 
-Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
+Click **Run** and check that the owl image now has a caption directly below it.
 
 --- /task ---
 

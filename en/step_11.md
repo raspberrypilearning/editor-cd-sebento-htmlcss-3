@@ -1,14 +1,12 @@
-<h2 class="c-project-heading--task">Build a page grid</h2>
+<h2 class="c-project-heading--task">Add side notes to the birds page</h2>
 
 --- task ---
 
-Use a grid layout to organise the birds page so the main article and side notes sit in a cleaner, more interesting arrangement.
-
-**Code snippet 1: Add grid classes to the main content and side notes.**
+Add side notes to your birds page so you can include extra facts and useful links without crowding the main article.
 
 --- /task ---
 
-CSS grid is a powerful way to control page layout. Here you will use it to give the article more space and move the side notes into their own column.
+This is a good job for `aside` elements, because the information is useful but does not belong inside the main list of birds.
 
 <div class="c-project-code">
 
@@ -17,65 +15,37 @@ CSS grid is a powerful way to control page layout. Here you will use it to give 
 language: html
 filename: birds.html
 line_numbers: true
-line_number_start: 20
-line_highlights: 20,49,118,131
+line_number_start: 114
+line_highlights: 118-138
 ---
-  <main class="myPageLayoutGrid">
-    
-    <article class="myGridArticle">
-      <h1>Birds of conservation concern in Ireland</h1>
-    </article>
-    
-    <aside class="sideNoteStyle myGridAside1">
-      <h3>Threats to birds</h3>
-    </aside>
-    
-    <aside class="sideNoteStyle myGridAside2">
-      <h3>Useful links</h3>
-    </aside>
-  </main>
---- /code ---
+      </article>
+      
+      <aside>
+        <h3>Threats to birds</h3>
+        <p>
+          Some of the main reasons you might observe declining numbers are:
+        </p>
+        <ol>
+          <li>Habitat destruction</li>
+          <li>Pollution</li>
+          <li>Climate change</li>
+        </ol>
+      </aside>
 
-</div>
-
-**Code snippet 2: Define the grid layout in `styles.css`.**
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 212
-line_highlights: 212-231
----
-.myPageLayoutGrid {
-    display: grid;
-    grid-column-gap: 0.5em;
-    grid-row-gap: 1em;
-    grid-template-rows: auto;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-        "egArticle egAside1"
-        "egArticle egAside2"
-        "egArticle .";
-}
-.myGridArticle {
-    grid-area: egArticle;
-}
-.myGridAside1 {
-    grid-area: egAside1;
-}
-.myGridAside2 {
-    grid-area: egAside2;
-}
+      <aside>
+        <h3>Useful links</h3>
+        <p>See the complete published <span class="warnOrange">amber</span> and <span class="warnRed">red</span> lists
+          <a href="https://www.birdwatchireland.ie/LinkClick.aspx?fileticket=VcYOTGOjNbA%3d&tabid=178">here</a>.</p>
+        <p>Check out the Wikipedia <a href="https://en.wikipedia.org/wiki/Bird_conservation">article</a>.</p>
+      </aside>
+      
+    </main>
 --- /code ---
 
 </div>
 --- task ---
 
-Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.
+Click **Run** and check that the extra notes appear outside the main bird list on the birds page.
 
 --- /task ---
 

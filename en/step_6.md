@@ -6,8 +6,6 @@ Move your cards into the centre of the page so they feel more polished and are r
 
 --- /task ---
 
-`margin-left: auto;` and `margin-right: auto;` centre a fixed-width block.
-
 --- task ---
 
 In **styles.css**, add the highlighted lines to the `.card` rule.
@@ -21,15 +19,21 @@ In **styles.css**, add the highlighted lines to the `.card` rule.
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 174
-line_highlights: 176-177
+line_number_start: 114
+line_highlights: 123-124
 ---
+.card {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #F0FFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
     margin-top: 10px;
     font-family: "Trebuchet MS", sans-serif;
     margin-left: auto;
     margin-right: auto;
 }
-.card:hover {
 --- /code ---
 
 </div>
