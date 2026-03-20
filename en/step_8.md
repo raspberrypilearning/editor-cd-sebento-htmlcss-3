@@ -20,13 +20,14 @@ language: css
 filename: styles.css
 line_numbers: true
 line_number_start: 127
-line_highlights: 129-131
+line_highlights: 129-130
 ---
 .card:hover {
     border-color: #1E90FF;
     box-shadow: 0px 4px 4px rgba(0,0,139,0.5);
     transform: translateY(-2px);
 }
+
 .cardLink {
 --- /code ---
 

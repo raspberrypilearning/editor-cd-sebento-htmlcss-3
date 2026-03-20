@@ -2,11 +2,10 @@
 
 --- task ---
 
-Group the owl image and its caption together so the homepage feels more finished and the picture has a clear label.
+Wrap the featured owl image on the homepage and its caption in a `figure` element so the picture has a clear label.
 
 --- /task ---
 
-`figure` and `figcaption` are useful when a picture and its text belong together and should be treated as one part of the page.
 
 <div class="c-project-code">
 --- code ---
@@ -14,9 +13,11 @@ Group the owl image and its caption together so the homepage feels more finished
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 31-34
+line_number_start: 26
+line_highlights: 30-33
 ---
+    <p>
+	    Explore the links above to learn more.
     </p>
 
     <figure>
@@ -39,5 +40,14 @@ Click **Run** and check that the owl image now has a caption directly below it.
 <div class="c-project-output">
 
 ![screenshot of output](step9.png)
+
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+`figure` and `figcaption` are useful when a picture and its text belong together and should be treated as one part of the page.
+
 
 </div>
