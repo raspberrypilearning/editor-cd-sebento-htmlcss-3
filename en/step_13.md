@@ -44,6 +44,6 @@ Click **Run** and check that the side notes appear in styled boxes and that the 
 
 <div class="c-project-output">
 
-![screenshot of output](images/asidesStyled.png)
+![screenshot of output](images/step13-output.png)
 
 </div>

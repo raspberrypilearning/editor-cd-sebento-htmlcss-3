@@ -57,3 +57,8 @@ Click **Run** and check that the collage images and text appear on the homepage 
 
 --- /task ---
 
+<div class="c-project-output">
+
+![screenshot of output](images/step14-output.png)
+
+</div>
