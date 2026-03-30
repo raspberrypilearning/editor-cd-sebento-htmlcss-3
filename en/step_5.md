@@ -35,8 +35,8 @@ In **index.html**, add more linked cards. For example, here is the Barn Owl card
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 32
-line_highlights: 32, 41-48
+line_number_start: 33
+line_highlights: 33, 43-49
 ---
     <div class="cardContainer">
       <a href="birds.html" class="cardLink">

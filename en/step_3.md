@@ -34,31 +34,31 @@ Add the highlighted CSS below to create a small card with a rounded picture. You
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 105
-line_highlights: 109-132
+line_number_start: 103
+line_highlights: 107-130
 ---
 .niceLinks:hover {
   color: #00FF7F;
 }
 
 .tinyPicture {
-    height: 60px;
-    border-radius: 10px;
+  height: 60px;
+  border-radius: 10px;
 }
 
 .card {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #F0FFFF;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin-top: 10px;
-    font-family: "Trebuchet MS", sans-serif;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #F0FFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 .card:hover {
-    border-color: #1E90FF;
+  border-color: #1E90FF;
 }
 
 .cardLink {

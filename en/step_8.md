@@ -41,7 +41,7 @@ Click **Run** and check that the cards still sit in a row and now lift when you 
 
 <div class="c-project-output">
 
-![screenshot of output](images/cardhover.png)
+![screenshot of output](images/cardhover.gif)
 
 </div>
 

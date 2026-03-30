@@ -25,19 +25,19 @@ Add the code below to wrap your Barn Owl card in a link.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 30
-line_highlights: 32, 38
+line_number_start: 31
+line_highlights: 33, 39
 --- 
-    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
-    
-    <a href="birds.html" class="cardLink">
-      <article class="card">
-        <img src="barn-owl-landing.jpg" class="tinyPicture">
-        <h3>Barn Owl</h3>
-        <p>Habitat: farmland, grassland</p>
-      </article>
-    </a>
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
 
+      <a href="birds.html" class="cardLink">
+        <article class="card">
+          <img src="barn-owl-landing.jpg" class="tinyPicture">
+          <h3>Barn Owl</h3>
+          <p>Habitat: farmland, grassland</p>
+        </article>
+      </a>
+      
     </main>
 --- /code ---
 
