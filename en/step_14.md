@@ -1,101 +1,59 @@
-<h2 class="c-project-heading--task">Challenge: Add a lightbox effect</h2>
+<h2 class="c-project-heading--task">Challenge: Create a photo collage</h2>
 
 --- task ---
 
-Add a lightbox effect so bird photos on `birds.html` can open in a larger overlay when clicked.
+Build a photo collage on your homepage so the site feels richer and more eye-catching.
 
 --- /task ---
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+Exact positioning lets you place images wherever you want instead of leaving them in a simple row. That makes it ideal for building a collage.
+
+</div>
+
+
 
 <div class="c-project-code">
 
 --- code ---
 ---
 language: html
-filename: birds.html
+filename: index.html
 line_numbers: true
-line_number_start: 22
-line_highlights: 22-46,61-62,70-71,75-76,85-86,94-95
+line_number_start: 68
+line_highlights: 77-84
 ---
-    <a href="#_" class="lightbox" id="boxBarnowl">
-      <h3>Hi there!</h3>
-      <img src="barn-owl-landing.jpg" alt="Picture of a barn owl" />
-      <p>Owly the barn owl dropping in for lunch</p>
-    </a>
+      <a href="birds.html" class="cardLink">
+        <article class="card">
+          <img src="hen-harrier.jpg" class="tinyPicture">
+          <h3>Hen Harrier</h3>
+          <p>Habitat: moorlands</p>
+        </article>
+      </a>
+    </div>
 
-    <a href="#_" class="lightbox" id="boxCurlew1">
-      <h3>Curlew</h3>
-      <img src="curlew.jpg" alt="A curlew on the sand" />
-    </a>
 
-    <a href="#_" class="lightbox" id="boxCurlew2">
-      <h3>Curlew</h3>
-      <img src="curlew2.jpg" alt="A curlew facing the camera" />
-    </a>
+    <div id="photoBox" class="relPos">
+      <img id="imgYoungKestrel" class="collagePhoto absPos" src="young-kestrel.jpg" alt="A young kestrel" />
+      <img id="imgYoungKestrelTree" class="collagePhoto absPos" src="baby-kestrel.jpg"
+        alt="A young kestrel on a branch" />
+      <img id="imgKestrelSky" class="collagePhoto absPos" src="kestrel-flying.jpg" alt="A kestrel flying" />
+      <img id="imgHello" class="collagePhoto absPos" src="bird-kestrel.jpg" alt="Closeup of a kestrel's face" />
+      <img id="imgKestrel" class="collagePhoto absPos" src="kestrel-mirror.jpg" alt="A kestrel perched by a mirror" />
+      <p id="photoText" class="absPos"><em>The Kestrel</em></p>
+    </div>
 
-    <a href="#_" class="lightbox" id="boxYellowh">
-      <h3>Yellowhammer</h3>
-      <img src="yellowhammer.jpg" alt="A yellowhammer in a tree" />
-    </a>
-
-    <a href="#_" class="lightbox" id="boxLapwing">
-      <h3>Lapwing</h3>
-      <img src="lapwing.jpg" alt="Picture of a lapwing" />
-    </a>
-
-    <a href="#boxBarnowl"><img src="barn-owl-landing.jpg" alt="Barn owl landing on a branch" class="mediumPictures" /></a>
-    <a href="#boxCurlew1"><img src="curlew.jpg" class="smallPictures" /></a>
-    <a href="#boxCurlew2"><img src="curlew2.jpg" class="smallPictures" /></a>
-    <a href="#boxYellowh"><img src="yellowhammer.jpg" width="200px" /></a>
-    <a href="#boxLapwing"><img src="lapwing.jpg" width="200px" /></a>
+  </main>
 --- /code ---
 
 </div>
 
 --- task ---
 
-In `styles.css`, add the `.lightbox` and `.lightbox:target` rules.
+Click **Run** and check that the collage images and text appear on the homepage ready to be styled.
 
 --- /task ---
 
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 146
-line_highlights: 146-160
----
-.lightbox{
-    background: rgba(0,0,0,0.8);
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: fixed;
-    visibility: hidden;
-    z-index: 999;
-}
-.lightbox:target {
-    visibility: visible;
-}
-
-.tinyPicture {
---- /code ---
-
-</div>
---- task ---
-
-Click **Run**, open `birds.html`, and click a bird image to confirm the lightbox appears and closes when you click away.
-
---- /task ---
-
-<div class="c-project-output">
-
-![screenshot of output](images/lightboxOwl.png)
-
-</div>

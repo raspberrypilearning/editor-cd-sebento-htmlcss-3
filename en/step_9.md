@@ -17,14 +17,14 @@ line_number_start: 26
 line_highlights: 30-33
 ---
     <p>
-	    Explore the links above to learn more.
+    Explore the links above to learn more.
     </p>
 
     <figure>
-      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
-      <figcaption>Owly the barn owl</figcaption>
+    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+    <figcaption>Owly the barn owl</figcaption>
     </figure>
-
+    
     <div class="cardContainer">
 --- /code ---
 

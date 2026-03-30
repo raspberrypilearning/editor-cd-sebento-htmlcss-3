@@ -66,7 +66,7 @@ line_highlights: 82, 94
       </aside>
 
    <aside class="sideNoteStyle myGridAside2">
-        <h3>Useful links</h3>
+        <h3>Bird facts</h3>
       
 --- /code ---
 

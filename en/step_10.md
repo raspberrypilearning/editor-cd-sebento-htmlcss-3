@@ -15,7 +15,7 @@ language: css
 filename: styles.css
 line_numbers: true
 line_number_start: 12
-line_highlights: 19-20, 25-28, 41052
+line_highlights: 19-20, 41-53
 ---
 nav ul {
   background-color: tomato;
@@ -30,6 +30,7 @@ nav ul {
 
 nav ul li {
   list-style-type: none;
+  display: inline;
   margin-right: 10px;
   margin-left: 10px;
   color: PapayaWhip;
