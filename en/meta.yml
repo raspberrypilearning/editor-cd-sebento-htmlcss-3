@@ -28,12 +28,11 @@ steps:
   - title: Step 10
   - title: Step 11
   - title: Step 12
-  - title: Step 13
     completion:
       - internal
+  - title: Step 13
+    challenge: true
   - title: Step 14
     challenge: true
   - title: Step 15
-    challenge: true
-  - title: Step 16
     challenge: true
