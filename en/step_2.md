@@ -19,18 +19,18 @@ Add the following HTML code to **index.html**.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 30
-line_highlights: 32-36 
+line_number_start: 31
+line_highlights: 33-37 
 ---
-    <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
-
-    <article class="card">
-      <img src="barn-owl-landing.jpg" class="tinyPicture">
-      <h3>Barn Owl</h3>
-      <p>Habitat: farmland, grassland</p>
-    </article>
-
-  </main>
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+      
+      <article class="card">
+        <img src="barn-owl-landing.jpg" class="tinyPicture">
+        <h3>Barn Owl</h3>
+        <p>Habitat: farmland, grassland</p>
+      </article>
+      
+    </main>
 --- /code ---
 
 </div>

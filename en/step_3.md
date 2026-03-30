@@ -10,7 +10,7 @@ Style your preview card by making the image into a thumbnail and a clear card sh
 
 ### Tip
 
-A thumbnail is a small picture that shows a preview of something bigger. It is used so you can quickly see what something is without opening it.
+A thumbnail is a small picture that shows a preview of something bigger.
 
 </div>
 

@@ -46,7 +46,6 @@ nav ul li a:hover {
   padding-bottom: 10px;
 }
 
-
 .stylishBox {
   background-color: #c1ebec;
   color: #A52A2A;
@@ -81,7 +80,6 @@ nav ul li a:hover {
 }
 
 #owly:hover {
-
   animation-name: rollOver;
   animation-duration: 1s;
   animation-iteration-count: 1;
