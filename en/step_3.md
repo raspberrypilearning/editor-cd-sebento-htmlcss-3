@@ -1,84 +1,48 @@
-<h2 class="c-project-heading--task">Style the preview card</h2>
+<h2 class="c-project-heading--task">Make your cards clickable</h2>
 
---- task ---
+### Step 1
 
-Style your preview card by making the image into a thumbnail and a clear card shape.
+Turn your homepage cards into clickable links so people can use them to jump straight to the matching bird sections.
 
---- /task ---
+### Step 2
 
-<div class="c-project-callout c-project-callout--tip">
+Go to the **index.html** file. 
 
-### Tip
+### Step 3
 
-A thumbnail is a small picture that shows a preview of something bigger.
-
-</div>
-
---- task ---
-
-Click on the project file tab and select **styles.css**
-
---- /task ---
-
-
---- task ---
-
-Add the highlighted CSS below to create a small card with a rounded picture. You can experiment with the border and colour setting to look how you want it.
-
---- /task ---
+Add the code below to wrap your Barn Owl card in a link.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: styles.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 103
-line_highlights: 107-130
----
-.niceLinks:hover {
-  color: #00FF7F;
-}
+line_number_start: 31
+line_highlights: 33, 39
+--- 
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
 
-.tinyPicture {
-  height: 60px;
-  border-radius: 10px;
-}
-
-.card {
-  width: 200px;
-  height: 200px;
-  border: 2px solid #F0FFFF;
-  border-radius: 10px;
-  box-sizing: border-box;
-  padding: 10px;
-  margin-top: 10px;
-  font-family: "Trebuchet MS", sans-serif;
-}
-
-.card:hover {
-  border-color: #1E90FF;
-}
-
-.cardLink {
-  color: inherit;
-  text-decoration: none;
-}
-
-/**********************************
-This section is for styling tables
+      <a href="birds.html" class="cardLink">
+        <article class="card">
+          <img src="barn-owl-landing.jpg" class="tinyPicture">
+          <h3>Barn Owl</h3>
+          <p>Habitat: farmland, grassland</p>
+        </article>
+      </a>
+      
+    </main>
 --- /code ---
 
 </div>
---- task ---
 
-Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.
+### Step 4
 
---- /task ---
+Click **Run** and check that the Barn Owl card is clickable and opens the Barn Owl section on `birds.html`.
 
 <div class="c-project-output">
 
-![screenshot of output](images/cardStyled.png)
+![screenshot of output](images/cardLink.png)
 
 </div>

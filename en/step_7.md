@@ -1,16 +1,12 @@
-<h2 class="c-project-heading--task">Arrange the cards in a row</h2>
+<h2 class="c-project-heading--task">Improve the card hover effect</h2>
 
---- task ---
+### Step 1
 
-Use CSS to style the `cardContainer` so the cards sit side by side and wrap neatly when there is less space.
+Add a smoother hover effect so each card feels more lively when you move the pointer over it.
 
---- /task ---
+### Step 2
 
---- task ---
-
-In **styles.css**, add a flex rule for `.cardContainer`.
-
---- /task ---
+In **styles.css**, update the card styles with the highlighted lines below to add a transition, a shadow, and a slight lift.
 
 <div class="c-project-code">
 
@@ -19,32 +15,35 @@ In **styles.css**, add a flex rule for `.cardContainer`.
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 131
-line_highlights: 136-141
+line_number_start: 127
+line_highlights: 129-130
 ---
-.cardLink {
-  color: inherit;
-  text-decoration: none;
+.card:hover {
+    border-color: #1E90FF;
+    box-shadow: 0px 4px 4px rgba(0,0,139,0.5);
+    transform: translateY(-2px);
 }
 
-.cardContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 10px;
-}
+.cardLink {
 --- /code ---
 
 </div>
 
---- task ---
+### Step 3
 
-Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.
-
---- /task ---
+Click **Run** and check that the cards still sit in a row and now lift when you hover over them. Experiment with colours and translate values to change the effect.
 
 <div class="c-project-output">
 
-![screenshot of output](images/flexSideBySide.png)
+![screenshot of output](images/cardhover.gif)
+
+</div>
+
+<div class="c-project-callout c-project-callout--tip">
+
+### Tip
+
+- `rgba` is a way to set a colour using red, green, blue, and alpha. `rgba(0,0,139,0.5)` means a dark blue with some see-through opacity.
+- `translateY` moves an element up or down.
 
 </div>

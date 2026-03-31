@@ -13,26 +13,26 @@ hardware: ''
 software: html-css-javascript
 version: 3.1.0
 last_tested: '2018-04-17'
+landing: true
 steps:
-  - title: Step 1
-  - title: Step 2
-  - title: Step 3
+  - title: Add a preview card
+  - title: Style the preview card
     completion:
       - engaged
-  - title: Step 4
-  - title: Step 5
-  - title: Step 6
-  - title: Step 7
-  - title: Step 8
-  - title: Step 9
-  - title: Step 10
-  - title: Step 11
-  - title: Step 12
+  - title: Make your cards clickable
+  - title: Add more bird cards
+  - title: Centre the cards
+  - title: Arrange the cards in a row
+  - title: Improve the card hover effect
+  - title: Add a featured image caption
+  - title: Make the menu responsive
+  - title: Add side notes to the birds page
+  - title: Build a page grid
+  - title: Style the side notes
     completion:
       - internal
-  - title: Step 13
-    challenge: true
-  - title: Step 14
-    challenge: true
-  - title: Step 15
+  - title: Challenge: Create a photo collage
+    completion:
+      - external
+  - title: Challenge: Style the photo collage
     challenge: true
