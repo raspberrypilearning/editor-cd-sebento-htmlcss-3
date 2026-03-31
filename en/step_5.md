@@ -63,6 +63,8 @@ line_highlights: 33, 43-49
 
 Click **Run** and check that you now have more than one card on the homepage, with each card linking to the matching bird section.
 
+This section can be styled later.
+
 --- /task ---
 
 <div class="c-project-output">

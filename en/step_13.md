@@ -36,9 +36,10 @@ line_highlights: 185-197
 --- /code ---
 
 </div>
+
 --- task ---
 
-Click **Run** and check that the side notes appear in styled boxes and that the words `amber` and `red` stand out.
+Click **Run** and check that the side notes appear in styled boxes.
 
 --- /task ---
 
