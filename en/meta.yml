@@ -1,14 +1,38 @@
-title: Project title in sentence case
+---
+title: Bird watch website 3.0
 hero_image: images/banner.png
-description: A short description of the project
+description: Add nice layouts and cool effects to your website!
+theme: navy
 listed: false
-pdf: false
+copyedit: true
+curriculum: ''
+interests: ''
+technologies: html-css-javascript
+site_areas: coderdojo, projects
+hardware: ''
+software: html-css-javascript
+version: 3.1.0
+last_tested: '2018-04-17'
 steps:
-  - title: What you will make
-  - title: Step title
+  - title: Step 1
+  - title: Step 2
+  - title: Step 3
     completion:
-      - engaged      
-  - title: Challenge
+      - engaged
+  - title: Step 4
+  - title: Step 5
+  - title: Step 6
+  - title: Step 7
+  - title: Step 8
+  - title: Step 9
+  - title: Step 10
+  - title: Step 11
+  - title: Step 12
+    completion:
+      - internal
+  - title: Step 13
     challenge: true
-    completion:
-      - external
+  - title: Step 14
+    challenge: true
+  - title: Step 15
+    challenge: true
