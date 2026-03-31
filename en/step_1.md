@@ -1,19 +1,42 @@
-<h2 class="c-project-heading--task">You will make</h2>
+<h2 class="c-project-heading--task">Add a preview card</h2>
 
---- task ---
+### Step 1
 
-Build a polished bird conservation website with linked cards, responsive layouts, and interactive effects.
+Add a preview card to your homepage so visitors can quickly spot one of your featured birds and click to learn more.
 
---- /task ---
+### Step 2
 
-<div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-cd-sebento-htmlcss-3-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
+Add the following HTML code to **index.html**.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 31
+line_highlights: 33-37 
+---
+      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
+      
+      <article class="card">
+        <img src="barn-owl-landing.jpg" class="tinyPicture">
+        <h3>Barn Owl</h3>
+        <p>Habitat: farmland, grassland</p>
+      </article>
+      
+    </main>
+--- /code ---
+
 </div>
 
+### Step 3
 
---- task ---
+Click **Run** and check that a new Barn Owl card appears on your homepage under the featured image.
 
-Click **Run** and explore the finished example and confirm you can spot linked cards, a photo collage, and pop-up image effects.
+<div class="c-project-output">
 
---- /task ---
+![screenshot of output](images/cardUnstyled.png)
+
+</div>

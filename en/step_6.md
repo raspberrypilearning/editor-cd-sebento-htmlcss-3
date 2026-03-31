@@ -1,16 +1,12 @@
-<h2 class="c-project-heading--task">Centre the cards</h2>
+<h2 class="c-project-heading--task">Arrange the cards in a row</h2>
 
---- task ---
+### Step 1
 
-Move your cards into the centre of the page so they feel more polished and are ready for a larger card layout.
+Use CSS to style the `cardContainer` so the cards sit side by side and wrap neatly when there is less space.
 
---- /task ---
+### Step 2
 
---- task ---
-
-In **styles.css**, add the highlighted lines to the `.card` rule.
-
---- /task ---
+In **styles.css**, add a flex rule for `.cardContainer`.
 
 <div class="c-project-code">
 
@@ -19,33 +15,30 @@ In **styles.css**, add the highlighted lines to the `.card` rule.
 language: css
 filename: styles.css
 line_numbers: true
-line_number_start: 114
-line_highlights: 123-124
+line_number_start: 131
+line_highlights: 136-141
 ---
-.card {
-    width: 200px;
-    height: 200px;
-    border: 2px solid #F0FFFF;
-    border-radius: 10px;
-    box-sizing: border-box;
+.cardLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 10px;
-    margin-top: 10px;
-    font-family: "Trebuchet MS", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
 }
 --- /code ---
 
 </div>
 
---- task ---
+### Step 3
 
-Click **Run** and check that each card stays centred, even when you make the browser wider and narrower.
-
---- /task ---
+Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.
 
 <div class="c-project-output">
 
-![screenshot of output](images/marginAuto.png)
+![screenshot of output](images/flexSideBySide.png)
 
 </div>

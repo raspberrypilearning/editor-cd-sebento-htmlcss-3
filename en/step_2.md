@@ -1,48 +1,76 @@
-<h2 class="c-project-heading--task">Add a preview card</h2>
+<h2 class="c-project-heading--task">Style the preview card</h2>
 
---- task ---
+### Step 1
 
-Add a preview card to your homepage so visitors can quickly spot one of your featured birds and click to learn more.
+Style your preview card by making the image into a thumbnail and a clear card shape.
 
---- /task ---
+<div class="c-project-callout c-project-callout--tip">
 
---- task ---
+### Tip
 
-Add the following HTML code to **index.html**.
+A thumbnail is a small picture that shows a preview of something bigger.
 
---- /task ---
+</div>
+
+### Step 2
+
+Click on the project file tab and select **styles.css**
+
+
+### Step 3
+
+Add the highlighted CSS below to create a small card with a rounded picture. You can experiment with the border and colour setting to look how you want it.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: styles.css
 line_numbers: true
-line_number_start: 31
-line_highlights: 33-37 
+line_number_start: 103
+line_highlights: 107-130
 ---
-      <img id="owly" src="barn-owl.jpg" class="topDivider someSpacing mediumPictures" alt="A barn owl" />
-      
-      <article class="card">
-        <img src="barn-owl-landing.jpg" class="tinyPicture">
-        <h3>Barn Owl</h3>
-        <p>Habitat: farmland, grassland</p>
-      </article>
-      
-    </main>
+.niceLinks:hover {
+  color: #00FF7F;
+}
+
+.tinyPicture {
+  height: 60px;
+  border-radius: 10px;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #F0FFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+.card:hover {
+  border-color: #1E90FF;
+}
+
+.cardLink {
+  color: inherit;
+  text-decoration: none;
+}
+
+/**********************************
+This section is for styling tables
 --- /code ---
 
 </div>
+### Step 4
 
---- task ---
-
-Click **Run** and check that a new Barn Owl card appears on your homepage under the featured image.
-
---- /task ---
+Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.
 
 <div class="c-project-output">
 
-![screenshot of output](images/cardUnstyled.png)
+![screenshot of output](images/cardStyled.png)
 
 </div>

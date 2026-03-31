@@ -1,89 +1,52 @@
-<h2 class="c-project-heading--task">Make the menu responsive</h2>
+<h2 class="c-project-heading--task">Add side notes to the birds page</h2>
 
---- task ---
+### Step 1
 
-Make your navigation menu responsive in **styles.css** so it works neatly on small screens first and then spreads out on larger screens.
-
---- /task ---
+Add side notes to your **birds.html** page so you can include extra facts and useful links without crowding the main article.
 
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: styles.css
+language: html
+filename: birds.html
 line_numbers: true
-line_number_start: 12
-line_highlights: 19-20, 41-53
+line_number_start: 80
+line_highlights: 82-99
 ---
-nav ul {
-  background-color: tomato;
-  border-style: solid;
-  border-color: MediumVioletRed;
-  border-width: 2px;
-  padding: 10px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-}
+      </article>
+      
+      <aside>
+        <h3>Threats to birds</h3>
+        <p>
+          Some of the main reasons you might observe declining numbers are:
+        </p>
+        <ol>
+          <li>Habitat destruction</li>
+          <li>Pollution</li>
+          <li>Climate change</li>
+        </ol>
+      </aside>
 
-nav ul li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 10px;
-  margin-left: 10px;
-  color: PapayaWhip;
-  text-align: center;
-}
+      <aside>
+        <h3>Bird facts</h3>
+        <p>Many birds migrate long distances to find food and warmer weather.</p>
+        <p>Birds help the environment by spreading seeds and controlling insect populations.</p>
+        <p>Some species are at risk because their nesting habitats are disappearing.</p>
+      </aside>
 
-nav ul li a {
-  text-decoration: none;
-  color: indigo;
-}
-
-nav ul li a:hover {
-  color: #ffefd5;
-}
-
-@media all and (min-width: 400px) {
-  nav ul {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-
-@media all and (min-width: 1600px) {
-  nav ul {
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-}
-
-.darkerBackground {
-  background-color: #99bbff;
-}
+    </main>
 --- /code ---
 
 </div>
---- task ---
 
-Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
+### Step 2
 
---- /task ---
+Click **Run** and check that the extra notes appear outside the main bird list on the birds page.
 
 <div class="c-project-output">
 
-![screenshot of output](images/responsiveMenuMobile.png)
-
-![screenshot of output](images/responsiveMenuWide.png)
-
-</div>
-
-<div class="c-project-callout c-project-callout--tip">
-
-### Tip
-
-Remove `display: inline;` from `nav ul li` because flexbox now controls how the menu items are laid out.
+![screenshot of output](images/step11-output.png)
 
 </div>
