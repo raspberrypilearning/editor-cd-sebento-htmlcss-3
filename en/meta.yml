@@ -31,8 +31,8 @@ steps:
   - title: Style the side notes
     completion:
       - internal
-  - title: Challenge: Create a photo collage
+  - title: "Challenge: Create a photo collage"
     completion:
       - external
-  - title: Challenge: Style the photo collage
+  - title: "Challenge: Style the photo collage"
     challenge: true
