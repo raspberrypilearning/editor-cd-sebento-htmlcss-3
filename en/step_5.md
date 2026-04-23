@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Centre the cards</h2>
 
-### Step 1
-
 Move your cards into the centre of the page so they feel more polished and are ready for a larger card layout.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 In **styles.css**, add the highlighted lines to the `.card` rule.
 
@@ -34,7 +34,7 @@ line_highlights: 123-124
 
 </div>
 
-### Step 3
+## Step 2
 
 Click **Run** and check that each card stays centred, even when you make the browser wider and narrower.
 
@@ -43,3 +43,7 @@ Click **Run** and check that each card stays centred, even when you make the bro
 ![screenshot of output](images/marginAuto.png)
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

@@ -1,9 +1,10 @@
 <h2 class="c-project-heading--task">Make the menu responsive</h2>
 
-### Step 1
-
 Make your navigation menu responsive in **styles.css** so it works neatly on small screens first and then spreads out on larger screens.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 <div class="c-project-code">
 
@@ -64,7 +65,8 @@ nav ul li a:hover {
 --- /code ---
 
 </div>
-### Step 2
+
+## Step 2
 
 Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
 
@@ -76,10 +78,14 @@ Click **Run**, make the browser narrow and wide, and check that the menu stacks 
 
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Remove `display: inline;` from `nav ul li` because flexbox now controls how the menu items are laid out.
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

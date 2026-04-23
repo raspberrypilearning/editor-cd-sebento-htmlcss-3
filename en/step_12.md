@@ -1,8 +1,10 @@
 <h2 class="c-project-heading--task">Style the side notes</h2>
 
-### Step 1
-
 Style your side notes in **styles.css** so they stand out from the main article and make the extra information easier to spot.
+
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 <div class="c-project-code">
 
@@ -35,7 +37,7 @@ line_highlights: 185-197
 
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run** and check that the side notes appear in styled boxes.
 
@@ -44,3 +46,7 @@ Click **Run** and check that the side notes appear in styled boxes.
 ![screenshot of output](images/step13-output.png)
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.

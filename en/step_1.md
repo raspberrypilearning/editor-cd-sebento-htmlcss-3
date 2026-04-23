@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Add a preview card</h2>
 
-### Step 1
-
 Add a preview card to your homepage so visitors can quickly spot one of your featured birds and click to learn more.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Add the following HTML code to **index.html**.
 
@@ -31,7 +31,7 @@ line_highlights: 33-37
 
 </div>
 
-### Step 3
+## Step 2
 
 Click **Run** and check that a new Barn Owl card appears on your homepage under the featured image.
 
@@ -40,3 +40,7 @@ Click **Run** and check that a new Barn Owl card appears on your homepage under 
 ![screenshot of output](images/cardUnstyled.png)
 
 </div>
+
+## Now run your code
+
+Confirm the observable result.
