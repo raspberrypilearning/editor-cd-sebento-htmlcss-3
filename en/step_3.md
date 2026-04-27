@@ -49,4 +49,4 @@ Click **Run** and check that the Barn Owl card is clickable and opens the Barn O
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the Barn Owl card is clickable and opens the Barn Owl section on `birds.html`.

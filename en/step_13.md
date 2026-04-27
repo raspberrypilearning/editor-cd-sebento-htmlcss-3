@@ -63,4 +63,4 @@ Click **Run** and check that the collage images and text appear on the homepage 
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the collage images and text appear on the homepage ready to be styled.

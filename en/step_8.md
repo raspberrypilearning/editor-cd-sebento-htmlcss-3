@@ -50,4 +50,4 @@ Click **Run** and check that the owl image now has a caption directly below it.
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the owl image now has a caption directly below it.

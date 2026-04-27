@@ -79,4 +79,4 @@ Click **Run** and check that the card now has a border, rounded corners, and a s
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.

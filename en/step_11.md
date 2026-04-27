@@ -125,4 +125,4 @@ Click **Run** and check that the main article takes the wider column while the t
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.

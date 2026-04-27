@@ -54,4 +54,4 @@ Click **Run** and check that the extra notes appear outside the main bird list o
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the extra notes appear outside the main bird list on the birds page.

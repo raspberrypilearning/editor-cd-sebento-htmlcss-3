@@ -49,4 +49,4 @@ Click **Run** and check that the side notes appear in styled boxes.
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the side notes appear in styled boxes.

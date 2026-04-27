@@ -88,4 +88,4 @@ Remove `display: inline;` from `nav ul li` because flexbox now controls how the 
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.

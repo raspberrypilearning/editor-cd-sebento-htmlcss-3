@@ -98,4 +98,4 @@ Click **Run** and check that the kestrel images overlap inside one collage with 
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.

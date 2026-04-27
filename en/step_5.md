@@ -46,4 +46,4 @@ Click **Run** and check that each card stays centred, even when you make the bro
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that each card stays centred, even when you make the browser wider and narrower.

@@ -50,4 +50,4 @@ Click **Run** and check that the cards still sit in a row and now lift when you 
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the cards still sit in a row and lift when you hover over them.

@@ -45,4 +45,4 @@ Click **Run** and check that the cards sit in a row when there is space and wrap
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.

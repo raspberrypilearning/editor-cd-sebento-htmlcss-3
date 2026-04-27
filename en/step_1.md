@@ -43,4 +43,4 @@ Click **Run** and check that a new Barn Owl card appears on your homepage under 
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that a new Barn Owl card appears on your homepage under the featured image.

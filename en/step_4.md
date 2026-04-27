@@ -65,4 +65,4 @@ This section can be styled later.
 
 ## Now run your code
 
-Confirm the observable result.
+Click **Run** and check that you now have more than one card on the homepage, with each card linking to the matching bird section.
