@@ -1,12 +1,14 @@
 <h2 class="c-project-heading--task">Challenge: Create a photo collage</h2>
 
-### Step 1
-
 Build a photo collage on your homepage so the site feels richer and more eye-catching.
 
-<div class="c-project-callout c-project-callout--tip">
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Exact positioning lets you place images wherever you want instead of leaving them in a simple row. That makes it ideal for building a collage.
 
@@ -49,7 +51,7 @@ line_highlights: 77-84
 
 </div>
 
-### Step 2
+## Step 2
 
 Click **Run** and check that the collage images and text appear on the homepage ready to be styled.
 
@@ -58,3 +60,7 @@ Click **Run** and check that the collage images and text appear on the homepage 
 ![screenshot of output](images/step14-output.png)
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that the collage images and text appear on the homepage ready to be styled.

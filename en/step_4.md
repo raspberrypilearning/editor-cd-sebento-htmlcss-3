@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Add more bird cards</h2>
 
-### Step 1
-
 Now that the Barn Owl card works, add more cards for the other birds on your site.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 Make cards for more birds from your project, such as:
 - Curlew
@@ -12,11 +12,11 @@ Make cards for more birds from your project, such as:
 - Lapwing
 - Hen Harrier
 
-### Step 3
+## Step 2
 
 When you have added all of your bird cards, wrap the whole set of card links in one `div` with the class `cardContainer`.
 
-### Step 4
+## Step 3
 
 In **index.html**, add more linked cards. For example, here is the Barn Owl card followed by one for Curlew:
 
@@ -51,7 +51,7 @@ line_highlights: 33, 43-49
 
 </div>
 
-### Step 5
+## Step 4
 
 Click **Run** and check that you now have more than one card on the homepage, with each card linking to the matching bird section.
 
@@ -62,3 +62,7 @@ This section can be styled later.
 ![screenshot of output](images/cardsPreview.png)
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that you now have more than one card on the homepage, with each card linking to the matching bird section.

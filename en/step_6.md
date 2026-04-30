@@ -1,10 +1,10 @@
 <h2 class="c-project-heading--task">Arrange the cards in a row</h2>
 
-### Step 1
-
 Use CSS to style the `cardContainer` so the cards sit side by side and wrap neatly when there is less space.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 In **styles.css**, add a flex rule for `.cardContainer`.
 
@@ -33,7 +33,7 @@ line_highlights: 136-141
 
 </div>
 
-### Step 3
+## Step 2
 
 Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.
 
@@ -42,3 +42,7 @@ Click **Run** and check that the cards sit in a row when there is space and wrap
 ![screenshot of output](images/flexSideBySide.png)
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.

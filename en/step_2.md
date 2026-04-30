@@ -1,23 +1,24 @@
 <h2 class="c-project-heading--task">Style the preview card</h2>
 
-### Step 1
-
 Style your preview card by making the image into a thumbnail and a clear card shape.
 
-<div class="c-project-callout c-project-callout--tip">
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 A thumbnail is a small picture that shows a preview of something bigger.
 
 </div>
 
-### Step 2
+## Step 2
 
 Click on the project file tab and select **styles.css**
 
-
-### Step 3
+## Step 3
 
 Add the highlighted CSS below to create a small card with a rounded picture. You can experiment with the border and colour setting to look how you want it.
 
@@ -65,7 +66,8 @@ This section is for styling tables
 --- /code ---
 
 </div>
-### Step 4
+
+## Step 4
 
 Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.
 
@@ -74,3 +76,7 @@ Click **Run** and check that the card now has a border, rounded corners, and a s
 ![screenshot of output](images/cardStyled.png)
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.

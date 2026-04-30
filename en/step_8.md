@@ -1,9 +1,10 @@
 <h2 class="c-project-heading--task">Add a featured image caption</h2>
 
-### Step 1
-
 Wrap the featured owl image on the homepage and its caption in a `figure` element so the picture has a clear label.
 
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 <div class="c-project-code">
 --- code ---
@@ -28,8 +29,7 @@ line_highlights: 30-33
 
 </div>
 
-
-### Step 2
+## Step 2
 
 Click **Run** and check that the owl image now has a caption directly below it.
 
@@ -39,11 +39,15 @@ Click **Run** and check that the owl image now has a caption directly below it.
 
 </div>
 
-<div class="c-project-callout c-project-callout--tip">
-
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 `figure` and `figcaption` are useful when a picture and its text belong together and should be treated as one part of the page.
 
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that the owl image now has a caption directly below it.

@@ -1,14 +1,14 @@
 <h2 class="c-project-heading--task">Build a page grid</h2>
 
-### Step 1
-
 Use a grid layout to organise the **birds.html** page so the main article and side notes sit in a cleaner, more interesting arrangement.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 First, add `class="myPageLayoutGrid"` to the existing `main` element.
 
-### Step 3
+## Step 2
 
 Then add `class="myGridArticle"` to the existing `article`
 
@@ -31,7 +31,7 @@ line_highlights: 20, 22
 
 </div>
 
-### Step 4
+## Step 3
 
 Then add `class="sideNoteStyle myGridAside1"` and `class="sideNoteStyle myGridAside2"`.
 
@@ -65,7 +65,7 @@ line_highlights: 82, 94
 
 </div>
 
-### Step 5
+## Step 4
 
 In `styles.css`, add the grid rules.
 
@@ -112,7 +112,8 @@ line_highlights: 161-183
 --- /code ---
 
 </div>
-### Step 6
+
+## Step 5
 
 Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.
 
@@ -121,3 +122,7 @@ Click **Run** and check that the main article takes the wider column while the t
 ![screenshot of output](images/step12-output.png)
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.

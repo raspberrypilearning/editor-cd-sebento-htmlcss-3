@@ -1,18 +1,20 @@
 <h2 class="c-project-heading--task">Challenge: Style the photo collage</h2>
 
-### Step 1
-
 Use CSS to position the collage images so they overlap in an eye-catching layout on the homepage.
 
-<div class="c-project-callout c-project-callout--tip">
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
 
 ### Tip
+
+<div class="c-project-callout c-project-callout--tip">
 
 Use `position: absolute;` on the collage items and `position: relative;` on the container so you can place each image exactly where you want it.
 
 </div>
 
-### Step 2
+## Step 2
 
 In `styles.css`, add the collage positioning rules.
 
@@ -82,7 +84,8 @@ line_highlights: 235-288
 --- /code ---
 
 </div>
-### Step 3
+
+## Step 3
 
 Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.
 
@@ -92,3 +95,7 @@ Click **Run** and check that the kestrel images overlap inside one collage with 
 ![screenshot of output](images/photoCollageExample.png)
 
 </div>
+
+## Now run your code
+
+Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.
