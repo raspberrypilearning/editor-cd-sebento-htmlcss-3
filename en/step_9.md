@@ -2,8 +2,6 @@
 
 Make your navigation menu responsive in **styles.css** so it works neatly on small screens first and then spreads out on larger screens.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 <div class="c-project-code">
