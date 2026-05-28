@@ -2,8 +2,6 @@
 
 Wrap the featured owl image on the homepage and its caption in a `figure` element so the picture has a clear label.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 <div class="c-project-code">

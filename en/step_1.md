@@ -2,8 +2,6 @@
 
 Add a preview card to your homepage so visitors can quickly spot one of your featured birds and click to learn more.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Add the following HTML code to **index.html**.

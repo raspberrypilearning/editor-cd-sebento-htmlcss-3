@@ -2,8 +2,6 @@
 
 Move your cards into the centre of the page so they feel more polished and are ready for a larger card layout.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 In **styles.css**, add the highlighted lines to the `.card` rule.
