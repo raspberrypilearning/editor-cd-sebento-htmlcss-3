@@ -2,8 +2,6 @@
 
 Now that the Barn Owl card works, add more cards for the other birds on your site.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 Make cards for more birds from your project, such as:
