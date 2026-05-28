@@ -2,8 +2,6 @@
 
 Style your preview card by making the image into a thumbnail and a clear card shape.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 ### Tip
