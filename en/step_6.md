@@ -2,8 +2,6 @@
 
 Use CSS to style the `cardContainer` so the cards sit side by side and wrap neatly when there is less space.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 In **styles.css**, add a flex rule for `.cardContainer`.
