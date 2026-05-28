@@ -2,8 +2,6 @@
 
 Add a smoother hover effect so each card feels more lively when you move the pointer over it.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 In **styles.css**, update the card styles with the highlighted lines below to add a transition, a shadow, and a slight lift.
