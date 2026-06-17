@@ -2,15 +2,13 @@
 
 Use a grid layout to organise the **birds.html** page so the main article and side notes sit in a cleaner, more interesting arrangement.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 First, add `class="myPageLayoutGrid"` to the existing `main` element.
 
 ## Step 2
 
-Then add `class="myGridArticle"` to the existing `article`
+Then add `class="myGridArticle"` to the existing `article`.
 
 <div class="c-project-code">
 
