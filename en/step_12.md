@@ -2,8 +2,6 @@
 
 Style your side notes in **styles.css** so they stand out from the main article and make the extra information easier to spot.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 <div class="c-project-code">
