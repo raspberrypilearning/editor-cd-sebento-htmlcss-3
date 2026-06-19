@@ -2,8 +2,6 @@
 
 Use CSS to position the collage images so they overlap in an eye-catching layout on the homepage.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 ### Tip

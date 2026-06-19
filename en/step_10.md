@@ -2,8 +2,6 @@
 
 Add side notes to your **birds.html** page so you can include extra facts and useful links without crowding the main article.
 
-<h2 class="c-project-heading--explainer">Follow these instructions</h2>
-
 ## Step 1
 
 <div class="c-project-code">

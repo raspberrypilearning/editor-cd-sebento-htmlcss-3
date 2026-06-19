@@ -8,7 +8,7 @@ Go to the **index.html** file.
 
 ## Step 2
 
-Add the code below to wrap your Barn Owl card in a link.
+Add the code below to wrap your barn owl card in a link.
 
 <div class="c-project-code">
 
@@ -37,7 +37,7 @@ line_highlights: 33, 39
 
 ## Step 3
 
-Click **Run** and check that the Barn Owl card is clickable and opens the Barn Owl section on `birds.html`.
+Click **Run** and check that the barn owl card is clickable and opens the barn owl section on `birds.html`.
 
 <div class="c-project-output">
 
@@ -47,4 +47,4 @@ Click **Run** and check that the Barn Owl card is clickable and opens the Barn O
 
 ## Now run your code
 
-Click **Run** and check that the Barn Owl card is clickable and opens the Barn Owl section on `birds.html`.
+Click **Run** and check that the barn owl card is clickable and opens the barn owl section on `birds.html`.

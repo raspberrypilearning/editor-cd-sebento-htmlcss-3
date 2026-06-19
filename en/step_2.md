@@ -14,11 +14,11 @@ A thumbnail is a small picture that shows a preview of something bigger.
 
 ## Step 2
 
-Click on the project file tab and select **styles.css**
+Click on the project file tab and select **styles.css**.
 
 ## Step 3
 
-Add the highlighted CSS below to create a small card with a rounded picture. You can experiment with the border and colour setting to look how you want it.
+Add the highlighted CSS below to create a small card with a rounded picture. You can experiment with the border and colour setting to get it to look how you want it.
 
 <div class="c-project-code">
 

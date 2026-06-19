@@ -31,7 +31,7 @@ line_highlights: 33-37
 
 ## Step 2
 
-Click **Run** and check that a new Barn Owl card appears on your homepage under the featured image.
+Click **Run** and check that a new barn owl card appears on your homepage under the featured image.
 
 <div class="c-project-output">
 
@@ -41,4 +41,4 @@ Click **Run** and check that a new Barn Owl card appears on your homepage under 
 
 ## Now run your code
 
-Click **Run** and check that a new Barn Owl card appears on your homepage under the featured image.
+Click **Run** and check that a new barn owl card appears on your homepage under the featured image.
