@@ -35,7 +35,7 @@ line_highlights: 33, 39
 
 </div>
 
-## Step 3
+## Now run your code
 
 Click **Run** and check that the barn owl card is clickable and opens the barn owl section on `birds.html`.
 
@@ -45,6 +45,4 @@ Click **Run** and check that the barn owl card is clickable and opens the barn o
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the barn owl card is clickable and opens the barn owl section on `birds.html`.

@@ -27,7 +27,7 @@ line_highlights: 30-33
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that the owl image now has a caption directly below it.
 
@@ -46,6 +46,4 @@ Click **Run** and check that the owl image now has a caption directly below it.
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the owl image now has a caption directly below it.

@@ -35,7 +35,7 @@ line_highlights: 185-197
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that the side notes appear in styled boxes.
 
@@ -45,6 +45,4 @@ Click **Run** and check that the side notes appear in styled boxes.
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the side notes appear in styled boxes.

@@ -83,7 +83,7 @@ line_highlights: 235-288
 
 </div>
 
-## Step 3
+## Now run your code
 
 Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.
 
@@ -94,6 +94,4 @@ Click **Run** and check that the kestrel images overlap inside one collage with 
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the kestrel images overlap inside one collage with the text sitting on top.

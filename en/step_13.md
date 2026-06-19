@@ -49,7 +49,7 @@ line_highlights: 77-84
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that the collage images and text appear on the homepage ready to be styled.
 
@@ -59,6 +59,4 @@ Click **Run** and check that the collage images and text appear on the homepage 
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the collage images and text appear on the homepage ready to be styled.
