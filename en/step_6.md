@@ -31,7 +31,7 @@ line_highlights: 136-141
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.
 
@@ -41,6 +41,4 @@ Click **Run** and check that the cards sit in a row when there is space and wrap
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the cards sit in a row when there is space and wrap onto a new line when the window gets narrower.

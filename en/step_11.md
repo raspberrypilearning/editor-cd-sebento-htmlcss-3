@@ -111,7 +111,7 @@ line_highlights: 161-183
 
 </div>
 
-## Step 5
+## Now run your code
 
 Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.
 
@@ -121,6 +121,4 @@ Click **Run** and check that the main article takes the wider column while the t
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.

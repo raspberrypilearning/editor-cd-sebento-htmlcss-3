@@ -40,7 +40,7 @@ line_highlights: 82-99
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that the extra notes appear outside the main bird list on the birds page.
 
@@ -50,6 +50,4 @@ Click **Run** and check that the extra notes appear outside the main bird list o
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the extra notes appear outside the main bird list on the birds page.

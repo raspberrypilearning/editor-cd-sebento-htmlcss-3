@@ -64,7 +64,7 @@ nav ul li a:hover {
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
 
@@ -84,6 +84,4 @@ Remove `display: inline;` from `nav ul li` because flexbox now controls how the 
 
 </div>
 
-## Now run your code
 
-Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.

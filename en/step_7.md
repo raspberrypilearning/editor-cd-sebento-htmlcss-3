@@ -27,9 +27,9 @@ line_highlights: 129-130
 
 </div>
 
-## Step 2
+## Now run your code
 
-Click **Run** and check that the cards still sit in a row and now lift when you hover over them. Experiment with colours and translate values to change the effect.
+Click **Run** and check that the cards still sit in a row and lift when you hover over them.
 
 <div class="c-project-output">
 
@@ -46,6 +46,4 @@ Click **Run** and check that the cards still sit in a row and now lift when you 
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the cards still sit in a row and lift when you hover over them.

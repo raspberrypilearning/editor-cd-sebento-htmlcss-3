@@ -32,7 +32,7 @@ line_highlights: 123-124
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that each card stays centred, even when you make the browser wider and narrower.
 
@@ -42,6 +42,4 @@ Click **Run** and check that each card stays centred, even when you make the bro
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that each card stays centred, even when you make the browser wider and narrower.

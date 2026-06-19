@@ -65,7 +65,7 @@ This section is for styling tables
 
 </div>
 
-## Step 4
+## Now run your code
 
 Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.
 
@@ -75,6 +75,4 @@ Click **Run** and check that the card now has a border, rounded corners, and a s
 
 </div>
 
-## Now run your code
 
-Click **Run** and check that the card now has a border, rounded corners, and a small rounded thumbnail image.

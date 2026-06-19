@@ -29,7 +29,7 @@ line_highlights: 33-37
 
 </div>
 
-## Step 2
+## Now run your code
 
 Click **Run** and check that a new barn owl card appears on your homepage under the featured image.
 
@@ -39,6 +39,3 @@ Click **Run** and check that a new barn owl card appears on your homepage under 
 
 </div>
 
-## Now run your code
-
-Click **Run** and check that a new barn owl card appears on your homepage under the featured image.
