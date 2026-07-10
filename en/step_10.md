@@ -1,19 +1,8 @@
-<h2 class="c-project-heading--task">Add side notes to the birds page</h2>
+## Add side notes to the birds page
 
 Add side notes to your **birds.html** page so you can include extra facts and useful links without crowding the main article.
 
-## Step 1
-
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: birds.html
-line_numbers: true
-line_number_start: 80
-line_highlights: 82-99
----
+```html filename="birds.html" line_numbers="true" line_number_start="80" line_highlights="82-99"
       </article>
       
       <aside>
@@ -36,18 +25,12 @@ line_highlights: 82-99
       </aside>
 
     </main>
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 
 Click **Run** and check that the extra notes appear outside the main bird list on the birds page.
 
-<div class="c-project-output">
-
 ![screenshot of output](images/step11-output.png)
-
-</div>
 
 

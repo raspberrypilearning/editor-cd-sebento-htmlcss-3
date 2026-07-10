@@ -1,19 +1,8 @@
-<h2 class="c-project-heading--task">Make the menu responsive</h2>
+## Make the menu responsive
 
 Make your navigation menu responsive in **styles.css** so it works neatly on small screens first and then spreads out on larger screens.
 
-## Step 1
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 12
-line_highlights: 19-20, 41-53
----
+```css filename="styles.css" line_numbers="true" line_number_start="12" line_highlights="19-20,41-53"
 nav ul {
   background-color: tomato;
   border-style: solid;
@@ -60,28 +49,18 @@ nav ul li a:hover {
 .darkerBackground {
   background-color: #99bbff;
 }
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 
 Click **Run**, make the browser narrow and wide, and check that the menu stacks on smaller screens before spreading into a row on larger screens.
 
-<div class="c-project-output">
-
 ![screenshot of output](images/responsiveMenuMobile.png)
 
 ![screenshot of output](images/responsiveMenuWide.png)
 
-</div>
-
-### Tip
-
-<div class="c-project-callout c-project-callout--tip">
-
-Remove `display: inline;` from `nav ul li` because flexbox now controls how the menu items are laid out.
-
-</div>
+> [!TIP]
+>
+> Remove `display: inline;` from `nav ul li` because flexbox now controls how the menu items are laid out.
 
 

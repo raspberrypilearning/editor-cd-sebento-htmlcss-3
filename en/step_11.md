@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">Build a page grid</h2>
+## Build a page grid
 
 Use a grid layout to organise the **birds.html** page so the main article and side notes sit in a cleaner, more interesting arrangement.
 
@@ -10,39 +10,19 @@ First, add `class="myPageLayoutGrid"` to the existing `main` element.
 
 Then add `class="myGridArticle"` to the existing `article`.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: birds.html
-line_numbers: true
-line_number_start: 20
-line_highlights: 20, 22
----
+```html filename="birds.html" line_numbers="true" line_number_start="20" line_highlights="20,22"
   <main class="myPageLayoutGrid">
     
     <article class="myGridArticle">
       <h1>Birds of conservation concern in Ireland</h1>
     </article>
---- /code ---
-
-</div>
+```
 
 ## Step 3
 
 Then add `class="sideNoteStyle myGridAside1"` and `class="sideNoteStyle myGridAside2"`.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: birds.html
-line_numbers: true
-line_number_start: 82
-line_highlights: 82, 94
----
+```html filename="birds.html" line_numbers="true" line_number_start="82" line_highlights="82,94"
     <aside class="sideNoteStyle myGridAside1">
         <h3>Threats to birds</h3>
         <p>
@@ -58,25 +38,13 @@ line_highlights: 82, 94
    <aside class="sideNoteStyle myGridAside2">
         <h3>Bird facts</h3>
       
---- /code ---
-
-
-</div>
+```
 
 ## Step 4
 
 In `styles.css`, add the grid rules.
 
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: styles.css
-line_numbers: true
-line_number_start: 154
-line_highlights: 161-183
----
+```css filename="styles.css" line_numbers="true" line_number_start="154" line_highlights="161-183"
 .cardContainer {
     display: flex;
     flex-wrap: wrap;
@@ -107,18 +75,12 @@ line_highlights: 161-183
 .myGridAside2 {
     grid-area: egAside2;
 }
---- /code ---
-
-</div>
+```
 
 ## Now run your code
 
 Click **Run** and check that the main article takes the wider column while the two side notes sit in a narrower column on the right.
 
-<div class="c-project-output">
-
 ![screenshot of output](images/step12-output.png)
-
-</div>
 
 
